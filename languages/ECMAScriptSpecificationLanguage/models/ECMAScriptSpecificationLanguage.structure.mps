@@ -49,6 +49,13 @@
     <node concept="PrWs8" id="5eocg95ibfx" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyj" id="5eocg95ibOV" role="1TKVEi">
+      <property role="IQ2ns" value="6023618387430128955" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="steps" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5eocg95ibfy" resolve="Step" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5eocg95ibfy">
     <property role="EcuMT" value="6023618387430126562" />
