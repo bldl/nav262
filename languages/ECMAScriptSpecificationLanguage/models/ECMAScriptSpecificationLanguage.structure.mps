@@ -45,7 +45,7 @@
     <property role="EcuMT" value="6023618387430126560" />
     <property role="TrG5h" value="Algorithm" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5eocg95ibfx" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -61,7 +61,7 @@
     <property role="EcuMT" value="6023618387430126562" />
     <property role="TrG5h" value="Step" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="5eocg95ibf_">
     <property role="EcuMT" value="6023618387430126565" />
@@ -78,7 +78,7 @@
   <node concept="1TIwiD" id="5eocg95ibfB">
     <property role="EcuMT" value="6023618387430126567" />
     <property role="TrG5h" value="Variable" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5eocg95ibfD" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -87,7 +87,7 @@
     <property role="EcuMT" value="6023618387430126573" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="Expression" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="5eocg95ibfJ">
     <property role="EcuMT" value="6023618387430126575" />
