@@ -368,5 +368,45 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5Zr7efJcIQm">
+    <property role="EcuMT" value="6907146218799033750" />
+    <property role="TrG5h" value="ConversionExpressionOperator" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="5Zr7efJcIQp">
+    <property role="EcuMT" value="6907146218799033753" />
+    <property role="TrG5h" value="ConversionToMath" />
+    <ref role="1TJDcQ" node="5Zr7efJcIQm" resolve="ConversionExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="5Zr7efJcIQr">
+    <property role="EcuMT" value="6907146218799033755" />
+    <property role="TrG5h" value="ConversionToNumber" />
+    <ref role="1TJDcQ" node="5Zr7efJcIQm" resolve="ConversionExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="5Zr7efJcIQu">
+    <property role="EcuMT" value="6907146218799033758" />
+    <property role="TrG5h" value="ConversionToBigInt" />
+    <ref role="1TJDcQ" node="5Zr7efJcIQm" resolve="ConversionExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="5Zr7efJcIQx">
+    <property role="EcuMT" value="6907146218799033761" />
+    <property role="TrG5h" value="ConversionExpression" />
+    <ref role="1TJDcQ" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    <node concept="1TJgyj" id="5Zr7efJcIQz" role="1TKVEi">
+      <property role="IQ2ns" value="6907146218799033763" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5Zr7efJcIQm" resolve="ConversionExpressionOperator" />
+    </node>
+    <node concept="1TJgyj" id="5Zr7efJcIQ$" role="1TKVEi">
+      <property role="IQ2ns" value="6907146218799033764" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
