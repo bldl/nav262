@@ -408,5 +408,62 @@
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="40534ZA0ygD">
+    <property role="EcuMT" value="4613106930611790889" />
+    <property role="TrG5h" value="BinaryExpression" />
+    <ref role="1TJDcQ" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    <node concept="1TJgyj" id="40534ZA0ygG" role="1TKVEi">
+      <property role="IQ2ns" value="4613106930611790892" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+    <node concept="1TJgyj" id="40534ZA0ygH" role="1TKVEi">
+      <property role="IQ2ns" value="4613106930611790893" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="40534ZA0ygK" resolve="BinaryExpressionOperator" />
+    </node>
+    <node concept="1TJgyj" id="40534ZA0ygI" role="1TKVEi">
+      <property role="IQ2ns" value="4613106930611790894" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="40534ZA0ygK">
+    <property role="EcuMT" value="4613106930611790896" />
+    <property role="TrG5h" value="BinaryExpressionOperator" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="40534ZA0ygN">
+    <property role="EcuMT" value="4613106930611790899" />
+    <property role="TrG5h" value="BinaryAdd" />
+    <ref role="1TJDcQ" node="40534ZA0ygK" resolve="BinaryExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZA0ygR">
+    <property role="EcuMT" value="4613106930611790903" />
+    <property role="TrG5h" value="BinarySubtract" />
+    <ref role="1TJDcQ" node="40534ZA0ygK" resolve="BinaryExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZA0ygT">
+    <property role="EcuMT" value="4613106930611790905" />
+    <property role="TrG5h" value="BinaryMultiply" />
+    <ref role="1TJDcQ" node="40534ZA0ygK" resolve="BinaryExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZA0ygW">
+    <property role="EcuMT" value="4613106930611790908" />
+    <property role="TrG5h" value="BinaryDivide" />
+    <ref role="1TJDcQ" node="40534ZA0ygK" resolve="BinaryExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZA0ygY">
+    <property role="EcuMT" value="4613106930611790910" />
+    <property role="TrG5h" value="BinaryModulo" />
+    <ref role="1TJDcQ" node="40534ZA0ygK" resolve="BinaryExpressionOperator" />
+  </node>
 </model>
 
