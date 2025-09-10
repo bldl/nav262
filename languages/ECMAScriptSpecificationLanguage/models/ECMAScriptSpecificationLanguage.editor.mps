@@ -943,5 +943,29 @@
       <node concept="l2Vlx" id="40534ZCdbcb" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3Yw1TAbygKi">
+    <ref role="1XX52x" to="b9dh:3Yw1TAbygKb" resolve="ClampExpression" />
+    <node concept="3EZMnI" id="3Yw1TAbygKk" role="2wV5jI">
+      <node concept="3F0ifn" id="3Yw1TAbygKo" role="3EZMnx">
+        <property role="3F0ifm" value="the result of clamping" />
+      </node>
+      <node concept="3F1sOY" id="3Yw1TAbygKB" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:3Yw1TAbygKe" resolve="target" />
+      </node>
+      <node concept="3F0ifn" id="3Yw1TAbygKt" role="3EZMnx">
+        <property role="3F0ifm" value="between" />
+      </node>
+      <node concept="3F1sOY" id="3Yw1TAbygKD" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:3Yw1TAbygKf" resolve="lower" />
+      </node>
+      <node concept="3F0ifn" id="3Yw1TAbygKy" role="3EZMnx">
+        <property role="3F0ifm" value="and" />
+      </node>
+      <node concept="3F1sOY" id="3Yw1TAbygKF" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:3Yw1TAbygKg" resolve="upper" />
+      </node>
+      <node concept="2iRfu4" id="3Yw1TAbygKn" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
