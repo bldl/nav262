@@ -627,5 +627,27 @@
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6fyZdSQSvpt">
+    <property role="EcuMT" value="7197593185825191517" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="NumericLiteral" />
+    <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="6fyZdSQSvpy">
+    <property role="EcuMT" value="7197593185825191522" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="MathValueLiteral" />
+    <ref role="1TJDcQ" node="6fyZdSQSvpt" resolve="NumericLiteral" />
+  </node>
+  <node concept="1TIwiD" id="6fyZdSQSvp_">
+    <property role="EcuMT" value="7197593185825191525" />
+    <property role="TrG5h" value="DecimalMathValueLiteral" />
+    <ref role="1TJDcQ" node="6fyZdSQSvpy" resolve="MathValueLiteral" />
+    <node concept="1TJgyi" id="6fyZdSQSvq8" role="1TKVEl">
+      <property role="IQ2nx" value="7197593185825191560" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

@@ -1094,5 +1094,11 @@
       <node concept="2iRfu4" id="6fyZdSQCtdx" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6fyZdSQSvqa">
+    <ref role="1XX52x" to="b9dh:6fyZdSQSvp_" resolve="DecimalMathValueLiteral" />
+    <node concept="3F0A7n" id="6fyZdSQSvqc" role="2wV5jI">
+      <ref role="1NtTu8" to="b9dh:6fyZdSQSvq8" resolve="value" />
+    </node>
+  </node>
 </model>
 
