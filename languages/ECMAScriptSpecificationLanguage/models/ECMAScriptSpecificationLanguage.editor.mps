@@ -1064,5 +1064,23 @@
       <node concept="2iRfu4" id="3Yw1TAbYIPg" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6fyZdSNwEGp">
+    <ref role="1XX52x" to="b9dh:6fyZdSNwEGn" resolve="UnaryNegation" />
+    <node concept="3F0ifn" id="6fyZdSNwEGr" role="2wV5jI">
+      <property role="3F0ifm" value="-" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6fyZdSNwEGv">
+    <ref role="1XX52x" to="b9dh:6fyZdSNwEGe" resolve="UnaryExpression" />
+    <node concept="3EZMnI" id="6fyZdSNwEG$" role="2wV5jI">
+      <node concept="3F1sOY" id="6fyZdSNwEGC" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:6fyZdSNwEGh" resolve="op" />
+      </node>
+      <node concept="3F1sOY" id="6fyZdSNwEGF" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:6fyZdSNwEGi" resolve="expr" />
+      </node>
+      <node concept="2iRfu4" id="6fyZdSNwEGB" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

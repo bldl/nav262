@@ -585,5 +585,35 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6fyZdSNwEGe">
+    <property role="EcuMT" value="7197593185768614670" />
+    <property role="TrG5h" value="UnaryExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="6fyZdSNwEGh" role="1TKVEi">
+      <property role="IQ2ns" value="7197593185768614673" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6fyZdSNwEGl" resolve="UnaryExpressionOperator" />
+    </node>
+    <node concept="1TJgyj" id="6fyZdSNwEGi" role="1TKVEi">
+      <property role="IQ2ns" value="7197593185768614674" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6fyZdSNwEGl">
+    <property role="EcuMT" value="7197593185768614677" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="UnaryExpressionOperator" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="6fyZdSNwEGn">
+    <property role="EcuMT" value="7197593185768614679" />
+    <property role="TrG5h" value="UnaryNegation" />
+    <ref role="1TJDcQ" node="6fyZdSNwEGl" resolve="UnaryExpressionOperator" />
+  </node>
 </model>
 
