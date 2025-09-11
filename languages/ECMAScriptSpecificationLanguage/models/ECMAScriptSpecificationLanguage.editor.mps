@@ -1082,5 +1082,17 @@
       <node concept="2iRfu4" id="6fyZdSNwEGB" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6fyZdSQCtds">
+    <ref role="1XX52x" to="b9dh:6fyZdSQCtdn" resolve="LengthExpression" />
+    <node concept="3EZMnI" id="6fyZdSQCtdu" role="2wV5jI">
+      <node concept="3F0ifn" id="6fyZdSQCtdy" role="3EZMnx">
+        <property role="3F0ifm" value="the length of" />
+      </node>
+      <node concept="3F1sOY" id="6fyZdSQCtd_" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:6fyZdSQCtdq" resolve="expr" />
+      </node>
+      <node concept="2iRfu4" id="6fyZdSQCtdx" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

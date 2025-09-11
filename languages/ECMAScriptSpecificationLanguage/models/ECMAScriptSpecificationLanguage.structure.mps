@@ -615,5 +615,17 @@
     <property role="TrG5h" value="UnaryNegation" />
     <ref role="1TJDcQ" node="6fyZdSNwEGl" resolve="UnaryExpressionOperator" />
   </node>
+  <node concept="1TIwiD" id="6fyZdSQCtdn">
+    <property role="EcuMT" value="7197593185820988247" />
+    <property role="TrG5h" value="LengthExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="6fyZdSQCtdq" role="1TKVEi">
+      <property role="IQ2ns" value="7197593185820988250" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
