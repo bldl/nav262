@@ -680,5 +680,20 @@
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2VjIQ4x1uqD">
+    <property role="EcuMT" value="3374246571670890153" />
+    <property role="TrG5h" value="BooleanLiteral" />
+    <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="2VjIQ4x1uqF">
+    <property role="EcuMT" value="3374246571670890155" />
+    <property role="TrG5h" value="TrueLiteral" />
+    <ref role="1TJDcQ" node="2VjIQ4x1uqD" resolve="BooleanLiteral" />
+  </node>
+  <node concept="1TIwiD" id="2VjIQ4x1uqH">
+    <property role="EcuMT" value="3374246571670890157" />
+    <property role="TrG5h" value="FalseLiteral" />
+    <ref role="1TJDcQ" node="2VjIQ4x1uqD" resolve="BooleanLiteral" />
+  </node>
 </model>
 
