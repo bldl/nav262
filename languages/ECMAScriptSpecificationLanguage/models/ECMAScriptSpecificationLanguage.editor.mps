@@ -1291,5 +1291,17 @@
       <node concept="l2Vlx" id="2VjIQ4xrQls" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2VjIQ4xJUzG">
+    <ref role="1XX52x" to="b9dh:2VjIQ4x_63Q" resolve="NumberOfExpression" />
+    <node concept="3EZMnI" id="2VjIQ4xJUzJ" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4xJUzN" role="3EZMnx">
+        <property role="3F0ifm" value="the number of elements in" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4xJUzQ" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4x_63T" resolve="expr" />
+      </node>
+      <node concept="l2Vlx" id="2VjIQ4xJUzM" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
