@@ -1487,5 +1487,38 @@
       <property role="3F0ifm" value="exclusive OR (XOR)" />
     </node>
   </node>
+  <node concept="24kQdi" id="2VjIQ4zbfT3">
+    <ref role="1XX52x" to="b9dh:2VjIQ4yY7Mq" resolve="HexLiteral" />
+    <node concept="3EZMnI" id="2VjIQ4zbfTb" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4zbfTi" role="3EZMnx">
+        <property role="3F0ifm" value="the code unit 0x" />
+      </node>
+      <node concept="3F0A7n" id="2VjIQ4zbfTl" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4yY7Mt" resolve="value" />
+      </node>
+      <node concept="2iRfu4" id="2VjIQ4zbfTe" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2VjIQ4zbfTo">
+    <ref role="1XX52x" to="b9dh:2VjIQ4yY7Mv" resolve="HexNamedLiteral" />
+    <node concept="3EZMnI" id="2VjIQ4zbfTq" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4zbfTz" role="3EZMnx">
+        <property role="3F0ifm" value="the code unit 0x" />
+      </node>
+      <node concept="3F0A7n" id="2VjIQ4zbfTA" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4yY7Mt" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4zbfTG" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0A7n" id="2VjIQ4zbfTJ" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4zbfTM" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="2VjIQ4zbfTt" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

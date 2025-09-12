@@ -803,5 +803,23 @@
     <property role="TrG5h" value="BitwiseXOr" />
     <ref role="1TJDcQ" node="2VjIQ4yza58" resolve="BitwiseExpressionOperator" />
   </node>
+  <node concept="1TIwiD" id="2VjIQ4yY7Mq">
+    <property role="EcuMT" value="3374246571703565466" />
+    <property role="TrG5h" value="HexLiteral" />
+    <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
+    <node concept="1TJgyi" id="2VjIQ4yY7Mt" role="1TKVEl">
+      <property role="IQ2nx" value="3374246571703565469" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2VjIQ4yY7Mv">
+    <property role="EcuMT" value="3374246571703565471" />
+    <property role="TrG5h" value="HexNamedLiteral" />
+    <ref role="1TJDcQ" node="2VjIQ4yY7Mq" resolve="HexLiteral" />
+    <node concept="PrWs8" id="2VjIQ4yY7Mw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
