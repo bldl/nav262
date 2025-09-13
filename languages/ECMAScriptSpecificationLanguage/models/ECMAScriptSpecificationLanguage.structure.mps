@@ -786,7 +786,7 @@
     <property role="EcuMT" value="3374246571696496968" />
     <property role="TrG5h" value="BitwiseExpressionOperator" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2VjIQ4yza5a">
     <property role="EcuMT" value="3374246571696496970" />
