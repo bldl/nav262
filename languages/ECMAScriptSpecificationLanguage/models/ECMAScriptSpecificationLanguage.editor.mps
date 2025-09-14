@@ -1565,5 +1565,86 @@
       <node concept="2iRfu4" id="2hiz5OL3L9Q" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="72QE4x77shX">
+    <ref role="1XX52x" to="b9dh:72QE4x77shV" resolve="NewTargetLiteral" />
+    <node concept="3F0ifn" id="72QE4x77si2" role="2wV5jI">
+      <property role="3F0ifm" value="NewTarget" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="72QE4x7juiI">
+    <ref role="1XX52x" to="b9dh:72QE4x7juiG" resolve="NaNLiteral" />
+    <node concept="3F0ifn" id="72QE4x7juiM" role="2wV5jI">
+      <property role="3F0ifm" value="NaN" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="72QE4x7jwh4">
+    <ref role="1XX52x" to="b9dh:72QE4x7jwgZ" resolve="SimpleNumberLiteral" />
+    <node concept="3EZMnI" id="72QE4x7jwh6" role="2wV5jI">
+      <node concept="3F0ifn" id="72QE4x7jwha" role="3EZMnx">
+        <property role="3F0ifm" value="+" />
+        <node concept="pkWqt" id="72QE4x7jx5D" role="pqm2j">
+          <node concept="3clFbS" id="72QE4x7jx5E" role="2VODD2">
+            <node concept="3clFbF" id="72QE4x7jx67" role="3cqZAp">
+              <node concept="1Wc70l" id="72QE4x7qGly" role="3clFbG">
+                <node concept="3fqX7Q" id="72QE4x7qGzo" role="3uHU7w">
+                  <node concept="2OqwBi" id="72QE4x7qH72" role="3fr31v">
+                    <node concept="pncrf" id="72QE4x7qGOh" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="72QE4x7qHq0" role="2OqNvi">
+                      <ref role="3TsBF5" to="b9dh:72QE4x7jwh3" resolve="isNegative" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="17R0WA" id="72QE4x7jAIK" role="3uHU7B">
+                  <node concept="2OqwBi" id="72QE4x7j_rU" role="3uHU7B">
+                    <node concept="pncrf" id="72QE4x7j_9E" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="72QE4x7jA3v" role="2OqNvi">
+                      <ref role="3TsBF5" to="b9dh:72QE4x7jwh2" resolve="value" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="72QE4x7jB17" role="3uHU7w">
+                    <property role="Xl_RC" value="0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="72QE4x7jwhd" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+        <node concept="pkWqt" id="72QE4x7jwhi" role="pqm2j">
+          <node concept="3clFbS" id="72QE4x7jwhj" role="2VODD2">
+            <node concept="3clFbF" id="72QE4x7jwm9" role="3cqZAp">
+              <node concept="2OqwBi" id="72QE4x7jwEt" role="3clFbG">
+                <node concept="pncrf" id="72QE4x7jwm8" role="2Oq$k0" />
+                <node concept="3TrcHB" id="72QE4x7jwXX" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:72QE4x7jwh3" resolve="isNegative" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0A7n" id="72QE4x7jwhg" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:72QE4x7jwh2" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="72QE4x7rToM" role="3EZMnx">
+        <property role="3F0ifm" value="𝔽" />
+      </node>
+      <node concept="l2Vlx" id="72QE4x7jwh9" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="72QE4x7t7bW">
+    <ref role="1XX52x" to="b9dh:72QE4x7t7bU" resolve="PositiveInfinityNumberLiteral" />
+    <node concept="3F0ifn" id="72QE4x7t7c1" role="2wV5jI">
+      <property role="3F0ifm" value="+∞𝔽" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="72QE4x7t7c6">
+    <ref role="1XX52x" to="b9dh:72QE4x7t7c3" resolve="NegativeInfinityNumberLiteral" />
+    <node concept="3F0ifn" id="72QE4x7t7c9" role="2wV5jI">
+      <property role="3F0ifm" value="-∞𝔽" />
+    </node>
+  </node>
 </model>
 

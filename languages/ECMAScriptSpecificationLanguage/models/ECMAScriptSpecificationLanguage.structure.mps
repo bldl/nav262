@@ -842,5 +842,46 @@
     <property role="TrG5h" value="ThisLiteral" />
     <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
   </node>
+  <node concept="1TIwiD" id="72QE4x77shV">
+    <property role="EcuMT" value="8121864006393513083" />
+    <property role="TrG5h" value="NewTargetLiteral" />
+    <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="72QE4x7iZx3">
+    <property role="EcuMT" value="8121864006396540995" />
+    <property role="TrG5h" value="NumberLiteral" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="6fyZdSQSvpt" resolve="NumericLiteral" />
+  </node>
+  <node concept="1TIwiD" id="72QE4x7juiG">
+    <property role="EcuMT" value="8121864006396667052" />
+    <property role="TrG5h" value="NaNLiteral" />
+    <ref role="1TJDcQ" node="72QE4x7iZx3" resolve="NumberLiteral" />
+  </node>
+  <node concept="1TIwiD" id="72QE4x7jwgZ">
+    <property role="EcuMT" value="8121864006396675135" />
+    <property role="TrG5h" value="SimpleNumberLiteral" />
+    <ref role="1TJDcQ" node="72QE4x7iZx3" resolve="NumberLiteral" />
+    <node concept="1TJgyi" id="72QE4x7jwh2" role="1TKVEl">
+      <property role="IQ2nx" value="8121864006396675138" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="72QE4x7jwh3" role="1TKVEl">
+      <property role="IQ2nx" value="8121864006396675139" />
+      <property role="TrG5h" value="isNegative" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="72QE4x7t7bU">
+    <property role="EcuMT" value="8121864006399193850" />
+    <property role="TrG5h" value="PositiveInfinityNumberLiteral" />
+    <ref role="1TJDcQ" node="72QE4x7iZx3" resolve="NumberLiteral" />
+  </node>
+  <node concept="1TIwiD" id="72QE4x7t7c3">
+    <property role="EcuMT" value="8121864006399193859" />
+    <property role="TrG5h" value="NegativeInfinityNumberLiteral" />
+    <ref role="1TJDcQ" node="72QE4x7iZx3" resolve="NumberLiteral" />
+  </node>
 </model>
 
