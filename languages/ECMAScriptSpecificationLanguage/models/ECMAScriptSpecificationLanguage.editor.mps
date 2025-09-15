@@ -182,6 +182,9 @@
         <ref role="1NtTu8" to="b9dh:1W$67yoDXxq" resolve="expr" />
       </node>
       <node concept="l2Vlx" id="1W$67yo_wtq" role="2iSdaV" />
+      <node concept="3F0ifn" id="7MgVarPSHAX" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1W$67yoE2YG">
@@ -1809,6 +1812,21 @@
     <ref role="1XX52x" to="b9dh:7MgVarPIlmy" resolve="SymbolTypeLiteral" />
     <node concept="3F0ifn" id="7MgVarPIlmE" role="2wV5jI">
       <property role="3F0ifm" value="Symbol" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7MgVarPSHB4">
+    <ref role="1XX52x" to="b9dh:7MgVarPSHB0" resolve="ThrowStep" />
+    <node concept="3EZMnI" id="7MgVarPSHB6" role="2wV5jI">
+      <node concept="3F0ifn" id="7MgVarPSHBc" role="3EZMnx">
+        <property role="3F0ifm" value="Throw a" />
+      </node>
+      <node concept="3F0A7n" id="7MgVarPSHBg" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7MgVarPSHB2" resolve="exception" />
+      </node>
+      <node concept="3F0ifn" id="7MgVarPSHBj" role="3EZMnx">
+        <property role="3F0ifm" value="exception." />
+      </node>
+      <node concept="2iRfu4" id="7MgVarPSHB9" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -954,5 +954,15 @@
     <property role="TrG5h" value="SymbolTypeLiteral" />
     <ref role="1TJDcQ" node="7MgVarPIlmm" resolve="ESTypeLiteral" />
   </node>
+  <node concept="1TIwiD" id="7MgVarPSHB0">
+    <property role="EcuMT" value="8975934259183409600" />
+    <property role="TrG5h" value="ThrowStep" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+    <node concept="1TJgyi" id="7MgVarPSHB2" role="1TKVEl">
+      <property role="IQ2nx" value="8975934259183409602" />
+      <property role="TrG5h" value="exception" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
