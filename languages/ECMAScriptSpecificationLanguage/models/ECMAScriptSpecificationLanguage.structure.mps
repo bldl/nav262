@@ -1010,5 +1010,17 @@
     <property role="TrG5h" value="NegativeInfinityMathValueLiteral" />
     <ref role="1TJDcQ" node="6fyZdSQSvpy" resolve="MathValueLiteral" />
   </node>
+  <node concept="1TIwiD" id="4KBaWV24Ra2">
+    <property role="EcuMT" value="5487402837993550466" />
+    <property role="TrG5h" value="PerformStep" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+    <node concept="1TJgyj" id="4KBaWV24Ra4" role="1TKVEi">
+      <property role="IQ2ns" value="5487402837993550468" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
