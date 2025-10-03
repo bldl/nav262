@@ -1922,5 +1922,24 @@
       <node concept="3clFbS" id="7G6go8HPPLy" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="7owPl8g7FTp">
+    <ref role="13h7C2" to="b9dh:7owPl8g7FSK" resolve="AssertStep" />
+    <node concept="13hLZK" id="7owPl8g7FTq" role="13h7CW">
+      <node concept="3clFbS" id="7owPl8g7FTr" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7owPl8g7FTG" role="13h7CS">
+      <property role="TrG5h" value="getStepCount" />
+      <ref role="13i0hy" node="1MmZbFJuKwB" resolve="getStepCount" />
+      <node concept="3Tm1VV" id="7owPl8g7FTH" role="1B3o_S" />
+      <node concept="3clFbS" id="7owPl8g7FTQ" role="3clF47">
+        <node concept="3clFbF" id="7owPl8g7FUk" role="3cqZAp">
+          <node concept="3cmrfG" id="7owPl8g7FUj" role="3clFbG">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7owPl8g7FTR" role="3clF45" />
+    </node>
+  </node>
 </model>
 

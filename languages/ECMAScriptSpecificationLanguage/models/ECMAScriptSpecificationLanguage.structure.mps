@@ -1465,5 +1465,63 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7owPl8g7FSI">
+    <property role="EcuMT" value="8512037844164722222" />
+    <property role="TrG5h" value="CompoundCondition" />
+    <ref role="1TJDcQ" node="2RQ$QDRgIHc" resolve="Condition" />
+    <node concept="1TJgyj" id="4TkuY_$D_H$" role="1TKVEi">
+      <property role="IQ2ns" value="5644272475348294500" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2RQ$QDRgIHc" resolve="Condition" />
+    </node>
+    <node concept="1TJgyj" id="4TkuY_$D_H_" role="1TKVEi">
+      <property role="IQ2ns" value="5644272475348294501" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4TkuY_$D_Hv" resolve="CompoundConditionOperator" />
+    </node>
+    <node concept="1TJgyj" id="4TkuY_$D_HA" role="1TKVEi">
+      <property role="IQ2ns" value="5644272475348294502" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2RQ$QDRgIHc" resolve="Condition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7owPl8g7FSK">
+    <property role="EcuMT" value="8512037844164722224" />
+    <property role="TrG5h" value="AssertStep" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+    <node concept="1TJgyj" id="7owPl8g7G5m" role="1TKVEi">
+      <property role="IQ2ns" value="8512037844164723030" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cond" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2RQ$QDRgIHc" resolve="Condition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TkuY_$D_Hv">
+    <property role="EcuMT" value="5644272475348294495" />
+    <property role="TrG5h" value="CompoundConditionOperator" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="4TkuY_$D_Hw">
+    <property role="EcuMT" value="5644272475348294496" />
+    <property role="TrG5h" value="CompoundConditionOr" />
+    <ref role="1TJDcQ" node="4TkuY_$D_Hv" resolve="CompoundConditionOperator" />
+  </node>
+  <node concept="1TIwiD" id="4TkuY_$D_Hx">
+    <property role="EcuMT" value="5644272475348294497" />
+    <property role="TrG5h" value="CompoundConditionAnd" />
+    <ref role="1TJDcQ" node="4TkuY_$D_Hv" resolve="CompoundConditionOperator" />
+  </node>
+  <node concept="1TIwiD" id="4TkuY_$D_Hy">
+    <property role="EcuMT" value="5644272475348294498" />
+    <property role="TrG5h" value="CompoundConditionImply" />
+    <ref role="1TJDcQ" node="4TkuY_$D_Hv" resolve="CompoundConditionOperator" />
+  </node>
 </model>
 
