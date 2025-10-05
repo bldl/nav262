@@ -980,7 +980,7 @@
                         <ref role="3cqZAo" node="5SDB1WrMWd0" resolve="parentBlock" />
                       </node>
                       <node concept="3Tsc0h" id="5SDB1WrMWdf" role="2OqNvi">
-                        <ref role="3TtcxE" to="b9dh:5SDB1Wr5E41" />
+                        <ref role="3TtcxE" to="b9dh:5SDB1Wr5E41" resolve="steps" />
                       </node>
                     </node>
                     <node concept="3$u5V9" id="5SDB1WrMWdg" role="2OqNvi">
@@ -992,7 +992,7 @@
                                 <ref role="3cqZAo" node="5SDB1WrMWdn" resolve="it" />
                               </node>
                               <node concept="3TrEf2" id="5SDB1WrMWdm" role="2OqNvi">
-                                <ref role="3Tt5mk" to="b9dh:2QzpJ$Ig2fH" />
+                                <ref role="3Tt5mk" to="b9dh:2QzpJ$Ig2fH" resolve="step" />
                               </node>
                             </node>
                           </node>
