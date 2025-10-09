@@ -280,6 +280,7 @@
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1522217801069421831" name="jetbrains.mps.baseLanguage.collections.structure.FoldRightOperation" flags="nn" index="1MDeg1">
         <child id="1522217801069421833" name="seed" index="1MDegf" />
@@ -2343,6 +2344,55 @@
         </node>
       </node>
       <node concept="10Oyi0" id="5SDB1Wr5HjN" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1ZHYsdH7v2r">
+    <ref role="13h7C2" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+    <node concept="13i0hz" id="1ZHYsdH7vfh" role="13h7CS">
+      <property role="TrG5h" value="getSectionNumber" />
+      <node concept="3Tm1VV" id="1ZHYsdH7vfi" role="1B3o_S" />
+      <node concept="17QB3L" id="1ZHYsdH7vf_" role="3clF45" />
+      <node concept="3clFbS" id="1ZHYsdH7vfk" role="3clF47">
+        <node concept="3cpWs6" id="1ZHYsdH7vuq" role="3cqZAp">
+          <node concept="2OqwBi" id="3$uve2hE8k" role="3cqZAk">
+            <node concept="2OqwBi" id="3$uve2hAH6" role="2Oq$k0">
+              <node concept="2OqwBi" id="3$uve2hz$f" role="2Oq$k0">
+                <node concept="3Tsc0h" id="3$uve2hzPA" role="2OqNvi">
+                  <ref role="3TtcxE" to="b9dh:3$uve1VfZO" resolve="sections" />
+                </node>
+                <node concept="13iPFW" id="1ZHYsdH7vG$" role="2Oq$k0" />
+              </node>
+              <node concept="1yVyf7" id="3$uve2hCRZ" role="2OqNvi" />
+            </node>
+            <node concept="3TrcHB" id="3$uve2hEpM" role="2OqNvi">
+              <ref role="3TsBF5" to="b9dh:3$uve1VerO" resolve="number" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="1ZHYsdHhFnr" role="13h7CS">
+      <property role="TrG5h" value="getSection" />
+      <node concept="3Tm1VV" id="1ZHYsdHhFns" role="1B3o_S" />
+      <node concept="3Tqbb2" id="1ZHYsdHhFp8" role="3clF45">
+        <ref role="ehGHo" to="b9dh:3$uve1VerM" resolve="Section" />
+      </node>
+      <node concept="3clFbS" id="1ZHYsdHhFnu" role="3clF47">
+        <node concept="3cpWs6" id="1ZHYsdHhFpU" role="3cqZAp">
+          <node concept="2OqwBi" id="1ZHYsdHhI5L" role="3cqZAk">
+            <node concept="2OqwBi" id="1ZHYsdHhF$p" role="2Oq$k0">
+              <node concept="13iPFW" id="1ZHYsdHhFq8" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1ZHYsdHhG05" role="2OqNvi">
+                <ref role="3TtcxE" to="b9dh:3$uve1VfZO" resolve="sections" />
+              </node>
+            </node>
+            <node concept="1yVyf7" id="1ZHYsdHhNjc" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="1ZHYsdH7v2s" role="13h7CW">
+      <node concept="3clFbS" id="1ZHYsdH7v2t" role="2VODD2" />
     </node>
   </node>
 </model>
