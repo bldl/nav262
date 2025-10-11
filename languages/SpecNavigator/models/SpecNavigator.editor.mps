@@ -27,6 +27,7 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -307,13 +308,20 @@
       </node>
       <node concept="3F1sOY" id="PLDoPczw9u" role="3EZMnx">
         <ref role="1NtTu8" to="8wbp:PLDoPczvX7" resolve="concept" />
+        <node concept="VPXOz" id="7r3vAj8LmiL" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="PLDoPczw9z" role="3EZMnx">
         <property role="3F0ifm" value="where" />
       </node>
       <node concept="3F2HdR" id="PLDoPczw9C" role="3EZMnx">
+        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="8wbp:PLDoPczvX8" resolve="context" />
         <node concept="2iRfu4" id="PLDoPczw9E" role="2czzBx" />
+        <node concept="VPXOz" id="7r3vAj8Ncu9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="2iRfu4" id="PLDoPczw9q" role="2iSdaV" />
     </node>
