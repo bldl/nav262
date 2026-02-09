@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/ECMAScriptSpecificationLanguage.sandbox/ECMAScriptSpecificationLanguage.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ImporterPlugin/ImporterPlugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Sandbox/ECMAScriptSpecificationLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Test/Test.msd" folder="" />
     </projectModules>
   </component>
 </project>
