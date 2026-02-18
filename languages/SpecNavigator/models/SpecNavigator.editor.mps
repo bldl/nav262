@@ -58,6 +58,7 @@
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1233823429331" name="jetbrains.mps.lang.editor.structure.HorizontalGapStyleClassItem" flags="ln" index="15ARfc" />
       <concept id="1220974635399" name="jetbrains.mps.lang.editor.structure.QueryFunction_FontStyle" flags="in" index="17KAyr" />
       <concept id="1103016434866" name="jetbrains.mps.lang.editor.structure.CellModel_JComponent" flags="sg" stub="8104358048506731196" index="3gTLQM">
         <child id="1176475119347" name="componentProvider" index="3FoqZy" />
@@ -70,6 +71,9 @@
         <child id="6681408443912431608" name="query" index="3u2KpG" />
       </concept>
       <concept id="6681408443912573553" name="jetbrains.mps.lang.editor.structure.QueryFunction_URL" flags="in" index="3u3nf_" />
+      <concept id="1215007762405" name="jetbrains.mps.lang.editor.structure.FloatStyleClassItem" flags="ln" index="3$6MrZ">
+        <property id="1215007802031" name="value" index="3$6WeP" />
+      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -153,6 +157,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -170,6 +177,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -872,6 +885,90 @@
         </node>
       </node>
       <node concept="2iRfu4" id="6Tx72K8dbni" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6G_uN3NAMV2">
+    <ref role="1XX52x" to="8wbp:6G_uN3NAdOZ" resolve="FilteringConditionParamCardinality" />
+    <node concept="3EZMnI" id="6G_uN3NAMV4" role="2wV5jI">
+      <node concept="PMmxH" id="6G_uN3NAMV5" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3EZMnI" id="6G_uN3ND0TI" role="3EZMnx">
+        <node concept="VPM3Z" id="6G_uN3ND0TK" role="3F10Kt" />
+        <node concept="15ARfc" id="6G_uN3ND0TP" role="3F10Kt">
+          <property role="3$6WeP" value="0" />
+        </node>
+        <node concept="PMmxH" id="6G_uN3NGNxC" role="3EZMnx">
+          <ref role="PMmxG" node="6G_uN3NGNxA" resolve="ParameterType" />
+          <node concept="pkWqt" id="6G_uN3NHt3Z" role="pqm2j">
+            <node concept="3clFbS" id="6G_uN3NHt40" role="2VODD2">
+              <node concept="3clFbF" id="6G_uN3NGOnY" role="3cqZAp">
+                <node concept="3fqX7Q" id="6G_uN3NGQMi" role="3clFbG">
+                  <node concept="2OqwBi" id="6G_uN3NGQMk" role="3fr31v">
+                    <node concept="2OqwBi" id="6G_uN3NGQMl" role="2Oq$k0">
+                      <node concept="pncrf" id="6G_uN3NGQMm" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="6G_uN3NGQMn" role="2OqNvi">
+                        <ref role="3TsBF5" to="8wbp:6G_uN3NFJJd" resolve="paramType" />
+                      </node>
+                    </node>
+                    <node concept="21noJN" id="6G_uN3NGQMo" role="2OqNvi">
+                      <node concept="21nZrQ" id="6G_uN3NGQMp" role="21noJM">
+                        <ref role="21nZrZ" to="8wbp:6G_uN3NFJJa" resolve="any" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="Vb9p2" id="6G_uN3NHttv" role="3F10Kt">
+            <property role="Vbekb" value="g1_k_vY/BOLD" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="6G_uN3NAMV6" role="3EZMnx">
+          <property role="3F0ifm" value="parameter-cardinality-" />
+        </node>
+        <node concept="PMmxH" id="6G_uN3NAOm5" role="3EZMnx">
+          <ref role="PMmxG" node="6G_uN3NANYI" resolve="CardinalityType" />
+          <node concept="Vb9p2" id="6G_uN3NHtum" role="3F10Kt">
+            <property role="Vbekb" value="g1_k_vY/BOLD" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="6G_uN3NAOms" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+        </node>
+        <node concept="2iRfu4" id="6G_uN3ND0TN" role="2iSdaV" />
+      </node>
+      <node concept="3F0A7n" id="6G_uN3NAMV7" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:6G_uN3NAys1" resolve="amount" />
+      </node>
+      <node concept="2iRfu4" id="6G_uN3NAMV8" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="6G_uN3NANYI">
+    <property role="TrG5h" value="CardinalityType" />
+    <ref role="1XX52x" to="8wbp:6G_uN3NAdOZ" resolve="FilteringConditionParamCardinality" />
+    <node concept="3F0A7n" id="6G_uN3NGNxx" role="2wV5jI">
+      <ref role="1NtTu8" to="8wbp:6G_uN3NGe6B" resolve="op" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="6G_uN3NGNxA">
+    <property role="TrG5h" value="ParameterType" />
+    <ref role="1XX52x" to="8wbp:6G_uN3NAdOZ" resolve="FilteringConditionParamCardinality" />
+    <node concept="3EZMnI" id="6G_uN3NGOj0" role="2wV5jI">
+      <node concept="3F0A7n" id="6G_uN3NGQU2" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:6G_uN3NFJJd" resolve="paramType" />
+      </node>
+      <node concept="3F0ifn" id="6G_uN3NGOj5" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+      </node>
+      <node concept="2iRfu4" id="6G_uN3NGOj3" role="2iSdaV" />
+      <node concept="15ARfc" id="6G_uN3NHsSY" role="3F10Kt">
+        <property role="3$6WeP" value="0" />
+      </node>
+      <node concept="VPM3Z" id="6G_uN3NIDoz" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
 </model>
