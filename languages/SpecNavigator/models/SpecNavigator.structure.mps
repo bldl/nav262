@@ -432,7 +432,7 @@
     <node concept="1TJgyi" id="6G_uN3NFJJd" role="1TKVEl">
       <property role="IQ2nx" value="7720712586373561293" />
       <property role="TrG5h" value="paramType" />
-      <ref role="AX2Wp" node="6G_uN3NFJJ6" resolve="ParameterType" />
+      <ref role="AX2Wp" node="6G_uN3NFJJ6" resolve="ParamType" />
     </node>
   </node>
   <node concept="25R3W" id="6G_uN3NFJJ6">
@@ -486,7 +486,7 @@
   <node concept="1TIwiD" id="187YVFQKICh">
     <property role="EcuMT" value="1299283797942135313" />
     <property role="TrG5h" value="SummarySortingCriterion" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="187YVFQKICl" role="1TKVEl">
       <property role="IQ2nx" value="1299283797942135317" />
       <property role="TrG5h" value="sortBy" />
