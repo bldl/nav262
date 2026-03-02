@@ -10,6 +10,8 @@
   </languages>
   <imports>
     <import index="b9dh" ref="r:073391d3-1c04-44ec-87e8-9a6fe5746c65(ECMAScriptSpecificationLanguage.structure)" />
+    <import index="a1ev" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.color(JDK/)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -72,6 +74,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
@@ -1578,6 +1583,49 @@
         </node>
         <node concept="x79VA" id="1MmZbFJFuC1" role="3nqlJM">
           <property role="x79VB" value="Should return 1 for every Step but IfElseStep splitted to multiple lines." />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="13vZlw0Dgix" role="13h7CS">
+      <property role="TrG5h" value="getHighlightColor" />
+      <node concept="3Tm1VV" id="13vZlw0DqbK" role="1B3o_S" />
+      <node concept="3uibUv" id="13vZlw0Dh18" role="3clF45">
+        <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+      </node>
+      <node concept="3clFbS" id="13vZlw0Dgi$" role="3clF47">
+        <node concept="3clFbJ" id="13vZlw0wE2o" role="3cqZAp">
+          <node concept="2OqwBi" id="13vZlw0wEfX" role="3clFbw">
+            <node concept="13iPFW" id="13vZlw0Dkyo" role="2Oq$k0" />
+            <node concept="3TrcHB" id="13vZlw0wEtn" role="2OqNvi">
+              <ref role="3TsBF5" to="b9dh:6Kpi7Ig0$7$" resolve="isHighlighted" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="13vZlw0wE2q" role="3clFbx">
+            <node concept="3cpWs6" id="13vZlw0wUEe" role="3cqZAp">
+              <node concept="2YIFZM" id="13vZlw0AgND" role="3cqZAk">
+                <ref role="37wK5l" to="z60i:~Color.decode(java.lang.String)" resolve="decode" />
+                <ref role="1Pybhc" to="z60i:~Color" resolve="Color" />
+                <node concept="3cpWs3" id="13vZlw0B$Mw" role="37wK5m">
+                  <node concept="Xl_RD" id="13vZlw0B$UA" role="3uHU7B">
+                    <property role="Xl_RC" value="#" />
+                  </node>
+                  <node concept="2OqwBi" id="13vZlw0AgNE" role="3uHU7w">
+                    <node concept="13iPFW" id="13vZlw0DkHo" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="13vZlw0AgNG" role="2OqNvi">
+                      <ref role="3TsBF5" to="b9dh:13vZlw0zJYd" resolve="highlightColor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="13vZlw0wFJz" role="9aQIa">
+            <node concept="3clFbS" id="13vZlw0wFJ$" role="9aQI4">
+              <node concept="3cpWs6" id="13vZlw0wFJA" role="3cqZAp">
+                <node concept="10Nm6u" id="13vZlw0wFJQ" role="3cqZAk" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

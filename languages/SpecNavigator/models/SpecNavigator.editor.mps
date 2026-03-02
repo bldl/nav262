@@ -23,6 +23,7 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="uow6" ref="r:fd0d2c3d-31bf-4b65-9f96-0fc543bef61b(SpecNavigator.behavior)" />
     <import index="squ6" ref="r:b60215f1-3d3e-41cc-8321-723ef8eb59dd(jetbrains.mps.lang.editor.table.runtime)" />
+    <import index="a1ev" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.color(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -920,7 +921,10 @@
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="6Kpi7IgalcW" role="3EZMnx">
-        <property role="3F0ifm" value="highlight-steps" />
+        <property role="3F0ifm" value="highlight-steps:" />
+      </node>
+      <node concept="3F1sOY" id="13vZlw0vryK" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:13vZlw0vryH" resolve="color" />
       </node>
       <node concept="2iRfu4" id="6Kpi7IgalcZ" role="2iSdaV" />
     </node>
