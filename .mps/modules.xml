@@ -4,9 +4,9 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ECMAScriptSpecificationLanguage/ECMAScriptSpecificationLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/SpecNavigator/SpecNavigator.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/ECMA262/ECMA262.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ECMAScriptSpecificationLanguage.sandbox/ECMAScriptSpecificationLanguage.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ImporterPlugin/ImporterPlugin.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/Sandbox/ECMAScriptSpecificationLanguage.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Test/Test.msd" folder="" />
     </projectModules>
   </component>
