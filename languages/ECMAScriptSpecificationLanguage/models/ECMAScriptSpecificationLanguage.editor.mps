@@ -88,11 +88,9 @@
       <concept id="1074767920765" name="jetbrains.mps.lang.editor.structure.CellModel_ModelAccess" flags="sg" stub="8104358048506729357" index="XafU7">
         <child id="1176718152741" name="modelAcessor" index="3TRxkO" />
       </concept>
-      <concept id="1182191800432" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeListFilter" flags="in" index="107P5z" />
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
-      <concept id="1182233249301" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_childNode" flags="nn" index="12_Ws6" />
       <concept id="3383245079137422349" name="jetbrains.mps.lang.editor.structure.StyleClassReference" flags="ng" index="14SbXO">
         <reference id="3383245079137422350" name="styleClass" index="14SbXR" />
       </concept>
@@ -147,9 +145,7 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
-      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
-        <child id="1182233390675" name="filter" index="12AuX0" />
-      </concept>
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
         <child id="1225898971709" name="getter" index="1Hhtcw" />
       </concept>
@@ -357,7 +353,6 @@
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
-      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
@@ -5136,33 +5131,6 @@
         <node concept="2iRkQZ" id="3$uve1VfZX" role="2czzBx" />
         <node concept="Vb9p2" id="3$uve2hwnh" role="3F10Kt">
           <property role="Vbekb" value="g1_k_vY/BOLD" />
-        </node>
-        <node concept="107P5z" id="3$uve2lhez" role="12AuX0">
-          <node concept="3clFbS" id="3$uve2lhe$" role="2VODD2">
-            <node concept="3clFbF" id="3$uve2lhjq" role="3cqZAp">
-              <node concept="17QLQc" id="3$uve2ljpk" role="3clFbG">
-                <node concept="2OqwBi" id="3$uve2llZe" role="3uHU7w">
-                  <node concept="2OqwBi" id="p2yVFyPHl7" role="2Oq$k0">
-                    <node concept="1PxgMI" id="p2yVFyPH4w" role="2Oq$k0">
-                      <property role="1BlNFB" value="true" />
-                      <node concept="chp4Y" id="p2yVFyPH63" role="3oSUPX">
-                        <ref role="cht4Q" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
-                      </node>
-                      <node concept="2OqwBi" id="3$uve2ljS4" role="1m5AlR">
-                        <node concept="12_Ws6" id="3$uve2ljBi" role="2Oq$k0" />
-                        <node concept="1mfA1w" id="3$uve2lk9p" role="2OqNvi" />
-                      </node>
-                    </node>
-                    <node concept="3Tsc0h" id="p2yVFyPHz2" role="2OqNvi">
-                      <ref role="3TtcxE" to="b9dh:3$uve1VfZO" resolve="sections" />
-                    </node>
-                  </node>
-                  <node concept="1yVyf7" id="3$uve2lpCw" role="2OqNvi" />
-                </node>
-                <node concept="12_Ws6" id="3$uve2lhjp" role="3uHU7B" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="3$uve2lpX$" role="3EZMnx" />
