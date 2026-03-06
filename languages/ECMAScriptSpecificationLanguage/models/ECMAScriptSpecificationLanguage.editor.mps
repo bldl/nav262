@@ -14,6 +14,7 @@
     <import index="a1ev" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.color(JDK/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -155,6 +156,7 @@
       <concept id="7033942394256351208" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclarationReference" flags="ng" index="1PE4EZ">
         <reference id="7033942394256351817" name="editorComponent" index="1PE7su" />
       </concept>
+      <concept id="1161622981231" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1Q80Hx" />
       <concept id="1088612959204" name="jetbrains.mps.lang.editor.structure.CellModel_Alternation" flags="sg" stub="8104358048506729361" index="1QoScp">
         <property id="1088613081987" name="vertical" index="1QpmdY" />
         <child id="1145918517974" name="alternationCondition" index="3e4ffs" />
@@ -290,9 +292,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
-        <child id="1144104376918" name="parameter" index="1xVPHs" />
-      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7236635212850979475" name="jetbrains.mps.lang.smodel.structure.Node_HasNextSiblingOperation" flags="nn" index="rvlfL" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
@@ -302,7 +301,6 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1143512015885" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingOperation" flags="nn" index="YCak7" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -310,9 +308,6 @@
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
-      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
-        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
-      </concept>
       <concept id="1144195091934" name="jetbrains.mps.lang.smodel.structure.Node_IsRoleOperation" flags="nn" index="1BlSNk">
         <reference id="1144195362400" name="conceptOfParent" index="1BmUXE" />
         <reference id="1144195396777" name="linkInParent" index="1Bn3mz" />
@@ -7435,6 +7430,14 @@
         </node>
         <node concept="pkWqt" id="2wSwDuAp2pu" role="pqm2j">
           <node concept="3clFbS" id="2wSwDuAp2pv" role="2VODD2">
+            <node concept="3clFbF" id="3aElnzeqENe" role="3cqZAp">
+              <node concept="2OqwBi" id="3aElnzeqF0G" role="3clFbG">
+                <node concept="1Q80Hx" id="3aElnzeqENd" role="2Oq$k0" />
+                <node concept="liA8E" id="3aElnzeqFbd" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="2wSwDuAp2pw" role="3cqZAp">
               <node concept="1Wc70l" id="2wSwDuAx413" role="3clFbG">
                 <node concept="2OqwBi" id="2wSwDuAx4pJ" role="3uHU7B">
@@ -7443,27 +7446,58 @@
                     <ref role="3TsBF5" to="b9dh:2wSwDuAp28t" resolve="isExpanded" />
                   </node>
                 </node>
-                <node concept="17QLQc" id="2wSwDuAp2px" role="3uHU7w">
-                  <node concept="2OqwBi" id="2wSwDuAp2py" role="3uHU7w">
-                    <node concept="pncrf" id="2wSwDuAp2pz" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="2wSwDuAp2p$" role="2OqNvi">
-                      <node concept="1xMEDy" id="2wSwDuAp2p_" role="1xVPHs">
-                        <node concept="chp4Y" id="2wSwDuAp2pA" role="ri$Ld">
-                          <ref role="cht4Q" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+                <node concept="3fqX7Q" id="3aElnzelWnm" role="3uHU7w">
+                  <node concept="2OqwBi" id="3aElnzelYh4" role="3fr31v">
+                    <node concept="2OqwBi" id="3aElnzelXOm" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3aElnzelXIE" role="2Oq$k0">
+                        <node concept="pncrf" id="3aElnzelWnp" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3aElnzelXKG" role="2OqNvi">
+                          <ref role="3Tt5mk" to="b9dh:2wSwDuAp28u" resolve="ref" />
                         </node>
                       </node>
+                      <node concept="3TrEf2" id="3aElnzelY5d" role="2OqNvi">
+                        <ref role="3Tt5mk" to="b9dh:4JWQRjsya0F" resolve="ref" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="3aElnzelYxx" role="2OqNvi">
+                      <ref role="37wK5l" to="ho61:3aElnzeabD8" resolve="isRecursive" />
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="2wSwDuAp2pB" role="3uHU7B">
-                    <node concept="2OqwBi" id="2wSwDuAp2pC" role="2Oq$k0">
-                      <node concept="pncrf" id="2wSwDuAp2pD" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="2wSwDuAp2pE" role="2OqNvi">
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3aElnzeqGbG" role="3EZMnx">
+        <property role="3F0ifm" value="Inlining of recursive algorithms is not supported." />
+        <node concept="VPXOz" id="3aElnzeqGuX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="3aElnzeqGyY" role="pqm2j">
+          <node concept="3clFbS" id="3aElnzeqGyZ" role="2VODD2">
+            <node concept="3clFbF" id="3aElnzeqGBP" role="3cqZAp">
+              <node concept="1Wc70l" id="3aElnzeqIcq" role="3clFbG">
+                <node concept="2OqwBi" id="3aElnzeqJhk" role="3uHU7w">
+                  <node concept="2OqwBi" id="3aElnzeqIQb" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3aElnzeqIvM" role="2Oq$k0">
+                      <node concept="pncrf" id="3aElnzeqIjo" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3aElnzeqIFr" role="2OqNvi">
                         <ref role="3Tt5mk" to="b9dh:2wSwDuAp28u" resolve="ref" />
                       </node>
                     </node>
-                    <node concept="3TrEf2" id="2wSwDuAp2pF" role="2OqNvi">
+                    <node concept="3TrEf2" id="3aElnzeqJ6x" role="2OqNvi">
                       <ref role="3Tt5mk" to="b9dh:4JWQRjsya0F" resolve="ref" />
                     </node>
+                  </node>
+                  <node concept="2qgKlT" id="3aElnzeqKhT" role="2OqNvi">
+                    <ref role="37wK5l" to="ho61:3aElnzeabD8" resolve="isRecursive" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3aElnzeqGRv" role="3uHU7B">
+                  <node concept="pncrf" id="3aElnzeqGBO" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3aElnzeqHjC" role="2OqNvi">
+                    <ref role="3TsBF5" to="b9dh:2wSwDuAp28t" resolve="isExpanded" />
                   </node>
                 </node>
               </node>

@@ -80,6 +80,12 @@
       <property role="20kJfa" value="decorationBlock" />
       <ref role="20lvS9" node="6Kpi7IfE6Da" resolve="DecorationBlock" />
     </node>
+    <node concept="1TJgyj" id="44BPNitWE6$" role="1TKVEi">
+      <property role="IQ2ns" value="4694957757545226660" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="codeEditorBlock" />
+      <ref role="20lvS9" node="44BPNitWCEG" resolve="CodeEditorBlock" />
+    </node>
     <node concept="1TJgyj" id="2C_QaSBKClH" role="1TKVEi">
       <property role="IQ2ns" value="3037071766234236269" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -568,8 +574,9 @@
   </node>
   <node concept="1TIwiD" id="4rEj0yt6QeO">
     <property role="EcuMT" value="5109980327084516276" />
-    <property role="TrG5h" value="DecorationActionRenameAlgorithm" />
-    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <property role="TrG5h" value="CodeEditorActionRenameAlgorithm" />
+    <property role="34LRSv" value="rename-algorithm" />
+    <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
     <node concept="1TJgyi" id="4rEj0yt6QeS" role="1TKVEl">
       <property role="IQ2nx" value="5109980327084516280" />
       <property role="TrG5h" value="prefix" />
@@ -589,6 +596,30 @@
     <node concept="PrWs8" id="44BPNitl5_9" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="44BPNitWCEG">
+    <property role="EcuMT" value="4694957757545220780" />
+    <property role="TrG5h" value="CodeEditorBlock" />
+    <ref role="1TJDcQ" node="39yvsmz4J6i" resolve="AbstractBlock" />
+    <node concept="1TJgyj" id="44BPNitWDrQ" role="1TKVEi">
+      <property role="IQ2ns" value="4694957757545223926" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actions" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="44BPNitWDp_" resolve="CodeEditorAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="44BPNitWDp_">
+    <property role="EcuMT" value="4694957757545223781" />
+    <property role="TrG5h" value="CodeEditorAction" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="$M7JgvNeDj" resolve="NavigationClause" />
+  </node>
+  <node concept="1TIwiD" id="44BPNitYkQw">
+    <property role="EcuMT" value="4694957757545663904" />
+    <property role="TrG5h" value="CodeEditorActionInlineCalls" />
+    <property role="34LRSv" value="inline-algorithm-calls" />
+    <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
   </node>
 </model>
 
