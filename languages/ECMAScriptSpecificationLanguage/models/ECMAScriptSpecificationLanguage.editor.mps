@@ -7180,7 +7180,7 @@
         <property role="3F0ifm" value="Remarks:" />
       </node>
       <node concept="3F2HdR" id="13vZlw0p0_n" role="3EZMnx">
-        <ref role="1NtTu8" to="b9dh:13vZlw0p0_l" />
+        <ref role="1NtTu8" to="b9dh:13vZlw0p0_l" resolve="remarks" />
         <node concept="2iRkQZ" id="13vZlw0p0_o" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="13vZlw0p0_t" role="3EZMnx" />

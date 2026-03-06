@@ -2180,7 +2180,7 @@
   <node concept="1TIwiD" id="13vZlw0p0_d">
     <property role="EcuMT" value="1215968978818828621" />
     <property role="TrG5h" value="Remark" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="13vZlw0p0_e" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

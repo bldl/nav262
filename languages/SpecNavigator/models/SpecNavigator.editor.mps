@@ -700,11 +700,11 @@
             <property role="3F0ifm" value="sort-by:" />
           </node>
           <node concept="1iCGBv" id="2C_QaSBMYLV" role="3EZMnx">
-            <ref role="1NtTu8" to="8wbp:$M7JgvNoV2" />
+            <ref role="1NtTu8" to="8wbp:$M7JgvNoV2" resolve="operation" />
             <node concept="1sVBvm" id="2C_QaSBMYLX" role="1sWHZn">
               <node concept="3F2HdR" id="2C_QaSBMYM1" role="2wV5jI">
                 <property role="2czwfO" value="," />
-                <ref role="1NtTu8" to="8wbp:187YVFQNtNb" />
+                <ref role="1NtTu8" to="8wbp:187YVFQNtNb" resolve="sortingCriterions" />
               </node>
             </node>
           </node>
