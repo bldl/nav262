@@ -581,5 +581,14 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="44BPNitl5gt">
+    <property role="EcuMT" value="4694957757534852125" />
+    <property role="TrG5h" value="FilteringConditionSectionTitle" />
+    <property role="34LRSv" value="section-title-like" />
+    <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
+    <node concept="PrWs8" id="44BPNitl5_9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

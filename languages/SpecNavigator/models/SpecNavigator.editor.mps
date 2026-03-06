@@ -1232,5 +1232,20 @@
       <node concept="2iRfu4" id="4rEj0yt6Qfl" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="44BPNitl7ZU">
+    <ref role="1XX52x" to="8wbp:44BPNitl5gt" resolve="FilteringConditionSectionTitle" />
+    <node concept="3EZMnI" id="44BPNitl80c" role="2wV5jI">
+      <node concept="PMmxH" id="44BPNitl80d" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="44BPNitl80e" role="3EZMnx">
+        <property role="3F0ifm" value="section-title-like:" />
+      </node>
+      <node concept="3F0A7n" id="44BPNitl80f" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="2iRfu4" id="44BPNitl80g" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

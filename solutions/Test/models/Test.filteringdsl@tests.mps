@@ -80,14 +80,20 @@
       <concept id="968737421154712635" name="SpecNavigator.structure.FilteringConditionBodyContains" flags="ng" index="11Z5AQ">
         <child id="968737421154713415" name="pattern" index="11Z5Fa" />
       </concept>
+      <concept id="4694957757534852125" name="SpecNavigator.structure.FilteringConditionSectionTitle" flags="ng" index="3ssScD" />
     </language>
     <language id="e60c167c-aefb-4a7d-ac09-9ca6ce0aed62" name="ECMAScriptSpecificationLanguage">
+      <concept id="64310381453829874" name="ECMAScriptSpecificationLanguage.structure.Section" flags="ng" index="2129W1">
+        <property id="64310381453829875" name="title" index="2129W0" />
+        <property id="64310381453829876" name="number" index="2129W7" />
+      </concept>
       <concept id="3288585373319439338" name="ECMAScriptSpecificationLanguage.structure.BlockStep" flags="ng" index="3SOkj">
         <child id="3288585373319439339" name="steps" index="3SOki" />
       </concept>
       <concept id="3288585373319439340" name="ECMAScriptSpecificationLanguage.structure.SubStep" flags="ng" index="3SOkl">
         <child id="3288585373319439341" name="step" index="3SOkk" />
       </concept>
+      <concept id="2243945420573974393" name="ECMAScriptSpecificationLanguage.structure.AbstractOperation" flags="ng" index="27ygs1" />
       <concept id="3374246571670890155" name="ECMAScriptSpecificationLanguage.structure.TrueLiteral" flags="ng" index="fP_Ra" />
       <concept id="6023618387430126562" name="ECMAScriptSpecificationLanguage.structure.Step" flags="ng" index="mO8bw">
         <property id="1215968978821644173" name="highlightColor" index="gkgbl" />
@@ -97,6 +103,7 @@
       <concept id="6023618387430126560" name="ECMAScriptSpecificationLanguage.structure.Algorithm" flags="ng" index="mO8by">
         <property id="64310381453833017" name="id" index="2128Fa" />
         <property id="64310381461643013" name="location" index="22w6rQ" />
+        <child id="64310381453836276" name="sections" index="2128o7" />
         <child id="6023618387430128955" name="body" index="mO8KT" />
       </concept>
       <concept id="6023618387430126567" name="ECMAScriptSpecificationLanguage.structure.Variable" flags="ng" index="mO8b_" />
@@ -124,6 +131,12 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
       </concept>
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
+      <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
+        <child id="1171981057159" name="condition" index="3vwVQn" />
+      </concept>
+      <concept id="1171983834376" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertFalse" flags="nn" index="3vFxKo">
+        <child id="1171983854940" name="condition" index="3vFALc" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -410,7 +423,7 @@
   </node>
   <node concept="1lH9Xt" id="3NsNuqSQSpv">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="TrG5h" value="MatchingConsidersDecorationProperties" />
+    <property role="TrG5h" value="MatchingShouldIgnoreDecorationProperties" />
     <node concept="1LZb2c" id="3NsNuqSQSrk" role="1SL9yI">
       <property role="TrG5h" value="run" />
       <node concept="3cqZAl" id="3NsNuqSQSrl" role="3clF45" />
@@ -613,6 +626,93 @@
           </node>
           <node concept="3cmrfG" id="3NsNuqSQVsp" role="3tpDZB">
             <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="44BPNitpWms">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="TrG5h" value="MatchingSectionTitleShouldConsiderOnlyAlgorithmsTitle" />
+    <node concept="1LZb2c" id="44BPNitpWnd" role="1SL9yI">
+      <property role="TrG5h" value="run" />
+      <node concept="3cqZAl" id="44BPNitpWne" role="3clF45" />
+      <node concept="3clFbS" id="44BPNitpWnf" role="3clF47">
+        <node concept="3cpWs8" id="44BPNitpWCh" role="3cqZAp">
+          <node concept="3cpWsn" id="44BPNitpWCi" role="3cpWs9">
+            <property role="TrG5h" value="algorithm" />
+            <node concept="3Tqbb2" id="44BPNitpWyY" role="1tU5fm">
+              <ref role="ehGHo" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+            </node>
+            <node concept="2c44tf" id="44BPNitpWCj" role="33vP2m">
+              <node concept="27ygs1" id="44BPNitq3zL" role="2c44tc">
+                <property role="TrG5h" value="Foo" />
+                <node concept="2129W1" id="44BPNitq3Gi" role="2128o7">
+                  <property role="2129W7" value="0" />
+                  <property role="2129W0" value="First" />
+                </node>
+                <node concept="2129W1" id="44BPNitqJTc" role="2128o7">
+                  <property role="2129W7" value="SectionNumber" />
+                  <property role="2129W0" value="Last" />
+                </node>
+                <node concept="mO8bw" id="44BPNitq3zM" role="mO8KT">
+                  <property role="3nmMAU" value="true" />
+                  <property role="gkgbl" value="8cff32" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="44BPNitTRRZ" role="3cqZAp">
+          <node concept="3cpWsn" id="44BPNitTRS2" role="3cpWs9">
+            <property role="TrG5h" value="shouldNotMatch" />
+            <node concept="3Tqbb2" id="44BPNitTRRX" role="1tU5fm">
+              <ref role="ehGHo" to="8wbp:44BPNitl5gt" resolve="FilteringConditionSectionTitle" />
+            </node>
+            <node concept="2c44tf" id="44BPNitTRUH" role="33vP2m">
+              <node concept="3ssScD" id="44BPNitTRX2" role="2c44tc">
+                <property role="TrG5h" value="First" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vFxKo" id="44BPNitTSmP" role="3cqZAp">
+          <node concept="2OqwBi" id="44BPNitTSuO" role="3vFALc">
+            <node concept="37vLTw" id="44BPNitTSmT" role="2Oq$k0">
+              <ref role="3cqZAo" node="44BPNitTRS2" resolve="shouldNotMatch" />
+            </node>
+            <node concept="2qgKlT" id="44BPNitTSI$" role="2OqNvi">
+              <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
+              <node concept="37vLTw" id="44BPNitTSP4" role="37wK5m">
+                <ref role="3cqZAo" node="44BPNitpWCi" resolve="algorithm" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="44BPNitTSV2" role="3cqZAp">
+          <node concept="3cpWsn" id="44BPNitTSV3" role="3cpWs9">
+            <property role="TrG5h" value="shouldMatch" />
+            <node concept="3Tqbb2" id="44BPNitTSV4" role="1tU5fm">
+              <ref role="ehGHo" to="8wbp:44BPNitl5gt" resolve="FilteringConditionSectionTitle" />
+            </node>
+            <node concept="2c44tf" id="44BPNitTSV5" role="33vP2m">
+              <node concept="3ssScD" id="44BPNitTSV6" role="2c44tc">
+                <property role="TrG5h" value="Last" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="44BPNitTTIG" role="3cqZAp">
+          <node concept="2OqwBi" id="44BPNitUQhZ" role="3vwVQn">
+            <node concept="37vLTw" id="44BPNitUQi0" role="2Oq$k0">
+              <ref role="3cqZAo" node="44BPNitTSV3" resolve="shouldMatch" />
+            </node>
+            <node concept="2qgKlT" id="44BPNitUQi1" role="2OqNvi">
+              <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
+              <node concept="37vLTw" id="44BPNitUQi2" role="37wK5m">
+                <ref role="3cqZAo" node="44BPNitpWCi" resolve="algorithm" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

@@ -6422,5 +6422,46 @@
       <node concept="3cqZAl" id="4rEj0yt6Qga" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="44BPNitl5kv">
+    <ref role="13h7C2" to="8wbp:44BPNitl5gt" resolve="FilteringConditionSectionTitle" />
+    <node concept="13hLZK" id="44BPNitl5kw" role="13h7CW">
+      <node concept="3clFbS" id="44BPNitl5kx" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="44BPNitl5li" role="13h7CS">
+      <property role="TrG5h" value="condition" />
+      <ref role="13i0hy" node="39yvsmz6ZQk" resolve="condition" />
+      <node concept="3Tm1VV" id="44BPNitl5lj" role="1B3o_S" />
+      <node concept="3clFbS" id="44BPNitl5lo" role="3clF47">
+        <node concept="3clFbF" id="44BPNitl5KF" role="3cqZAp">
+          <node concept="2OqwBi" id="44BPNitPhD7" role="3clFbG">
+            <node concept="2OqwBi" id="44BPNitl5Xw" role="2Oq$k0">
+              <node concept="37vLTw" id="44BPNitl5KE" role="2Oq$k0">
+                <ref role="3cqZAo" node="44BPNitl5lp" resolve="algorithm" />
+              </node>
+              <node concept="2qgKlT" id="44BPNitl68h" role="2OqNvi">
+                <ref role="37wK5l" to="ho61:44BPNitPdkf" resolve="getSectionTitle" />
+              </node>
+            </node>
+            <node concept="liA8E" id="44BPNitPia1" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+              <node concept="2OqwBi" id="44BPNitPiK3" role="37wK5m">
+                <node concept="13iPFW" id="44BPNitPil2" role="2Oq$k0" />
+                <node concept="3TrcHB" id="44BPNitPjex" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="44BPNitl5lp" role="3clF46">
+        <property role="TrG5h" value="algorithm" />
+        <node concept="3Tqbb2" id="44BPNitl5lq" role="1tU5fm">
+          <ref role="ehGHo" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+        </node>
+      </node>
+      <node concept="10P_77" id="44BPNitl5lr" role="3clF45" />
+    </node>
+  </node>
 </model>
 

@@ -291,9 +291,13 @@
         <child id="1172667737868" name="fromElement" index="8sqot" />
         <child id="1172667748353" name="toElement" index="8st4g" />
       </concept>
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -2740,6 +2744,63 @@
             <node concept="3TrcHB" id="3$uve2hEpM" role="2OqNvi">
               <ref role="3TsBF5" to="b9dh:3$uve1VerO" resolve="number" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="44BPNitkYm3" role="13h7CS">
+      <property role="TrG5h" value="getSectionTitles" />
+      <node concept="3Tm1VV" id="44BPNitkYm4" role="1B3o_S" />
+      <node concept="_YKpA" id="44BPNitqsL6" role="3clF45">
+        <node concept="17QB3L" id="44BPNitqsL7" role="_ZDj9" />
+      </node>
+      <node concept="3clFbS" id="44BPNitkYm6" role="3clF47">
+        <node concept="3cpWs6" id="44BPNitkYBM" role="3cqZAp">
+          <node concept="2OqwBi" id="44BPNitqA3X" role="3cqZAk">
+            <node concept="2OqwBi" id="44BPNitl17K" role="2Oq$k0">
+              <node concept="2OqwBi" id="44BPNitkYMn" role="2Oq$k0">
+                <node concept="13iPFW" id="44BPNitkYC8" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="44BPNitkZ1O" role="2OqNvi">
+                  <ref role="3TtcxE" to="b9dh:3$uve1VfZO" resolve="sections" />
+                </node>
+              </node>
+              <node concept="3$u5V9" id="44BPNitq$m$" role="2OqNvi">
+                <node concept="1bVj0M" id="44BPNitq$mA" role="23t8la">
+                  <node concept="3clFbS" id="44BPNitq$mB" role="1bW5cS">
+                    <node concept="3clFbF" id="44BPNitq$u7" role="3cqZAp">
+                      <node concept="2OqwBi" id="44BPNitq$Kv" role="3clFbG">
+                        <node concept="37vLTw" id="44BPNitq$u6" role="2Oq$k0">
+                          <ref role="3cqZAo" node="44BPNitq$mC" resolve="it" />
+                        </node>
+                        <node concept="3TrcHB" id="44BPNitq_Je" role="2OqNvi">
+                          <ref role="3TsBF5" to="b9dh:3$uve1VerN" resolve="title" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="gl6BB" id="44BPNitq$mC" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="44BPNitq$mD" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="ANE8D" id="44BPNitqCeD" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="44BPNitPdkf" role="13h7CS">
+      <property role="TrG5h" value="getSectionTitle" />
+      <node concept="3Tm1VV" id="44BPNitPdkg" role="1B3o_S" />
+      <node concept="17QB3L" id="44BPNitPdr_" role="3clF45" />
+      <node concept="3clFbS" id="44BPNitPdki" role="3clF47">
+        <node concept="3cpWs6" id="44BPNitPdsn" role="3cqZAp">
+          <node concept="2OqwBi" id="44BPNitPeup" role="3cqZAk">
+            <node concept="BsUDl" id="44BPNitPdsP" role="2Oq$k0">
+              <ref role="37wK5l" node="44BPNitkYm3" resolve="getSectionTitles" />
+            </node>
+            <node concept="1yVyf7" id="44BPNitPgJg" role="2OqNvi" />
           </node>
         </node>
       </node>
