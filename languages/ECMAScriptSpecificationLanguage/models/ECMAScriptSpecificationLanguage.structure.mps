@@ -2206,6 +2206,20 @@
       <property role="TrG5h" value="highlightColor" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyj" id="52iPgJ9rAgO" role="1TKVEi">
+      <property role="IQ2ns" value="5805937116234802228" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="bookmarks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6Tx72K87Sg0" resolve="Bookmark" />
+    </node>
+    <node concept="1TJgyj" id="52iPgJ9rAkO" role="1TKVEi">
+      <property role="IQ2ns" value="5805937116234802484" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="remarks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="13vZlw0p0_d" resolve="Remark" />
+    </node>
   </node>
 </model>
 

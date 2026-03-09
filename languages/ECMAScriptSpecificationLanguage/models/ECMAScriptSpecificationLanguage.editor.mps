@@ -55,7 +55,6 @@
         <property id="168363875802087287" name="showInUI" index="2gpH_U" />
         <property id="5944657839012629576" name="presentation" index="2BUmq6" />
       </concept>
-      <concept id="8383079901754291618" name="jetbrains.mps.lang.editor.structure.CellModel_NextEditor" flags="ng" index="B$lHz" />
       <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
       <concept id="8255250703325731016" name="jetbrains.mps.lang.editor.structure.ScriptKindClassItem" flags="ln" index="2P5D8e">
         <property id="8255250703325731018" name="script" index="2P5D8c" />
@@ -5768,10 +5767,21 @@
           </node>
         </node>
       </node>
-      <node concept="PMmxH" id="5gsI0I4FaJa" role="1QoS34">
-        <ref role="PMmxG" node="7kd$FCwL_gk" resolve="StepContent" />
+      <node concept="3EZMnI" id="52iPgJ9rBCW" role="1QoS34">
+        <node concept="PMmxH" id="52iPgJ9rBQG" role="3EZMnx">
+          <ref role="PMmxG" node="52iPgJ9rAJu" resolve="StepAnnotations" />
+        </node>
+        <node concept="3F0ifn" id="52iPgJ9Aaf0" role="3EZMnx">
+          <property role="3F0ifm" value="-----------" />
+        </node>
+        <node concept="PMmxH" id="5gsI0I4FaJa" role="3EZMnx">
+          <ref role="PMmxG" node="7kd$FCwL_gk" resolve="StepContent" />
+        </node>
+        <node concept="2iRkQZ" id="52iPgJ9rBCX" role="2iSdaV" />
       </node>
-      <node concept="B$lHz" id="5gsI0I4FaJR" role="1QoVPY" />
+      <node concept="PMmxH" id="52iPgJ9rC3E" role="1QoVPY">
+        <ref role="PMmxG" node="52iPgJ9rAJu" resolve="StepAnnotations" />
+      </node>
     </node>
   </node>
   <node concept="PKFIW" id="5gsI0I3vaUg">
@@ -7670,6 +7680,41 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="Vb9p2" id="13vZlw0sQWf" role="3F10Kt" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="52iPgJ9rAJu">
+    <property role="TrG5h" value="StepAnnotations" />
+    <ref role="1XX52x" to="b9dh:5eocg95ibfy" resolve="Step" />
+    <node concept="3EZMnI" id="52iPgJ9rAWi" role="2wV5jI">
+      <node concept="3EZMnI" id="52iPgJ9rB5a" role="3EZMnx">
+        <node concept="VPM3Z" id="52iPgJ9rB5c" role="3F10Kt" />
+        <node concept="3F0ifn" id="52iPgJ9rB5e" role="3EZMnx">
+          <property role="3F0ifm" value="Bookmarks:" />
+        </node>
+        <node concept="1iCGBv" id="52iPgJ9rB8t" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:52iPgJ8BFRv" resolve="matchingIgnoredProperties" />
+          <node concept="1sVBvm" id="52iPgJ9rB8v" role="1sWHZn">
+            <node concept="3F2HdR" id="52iPgJ9rB9m" role="2wV5jI">
+              <property role="2czwfO" value=" " />
+              <ref role="1NtTu8" to="b9dh:52iPgJ9rAgO" resolve="bookmarks" />
+            </node>
+          </node>
+        </node>
+        <node concept="2iRfu4" id="52iPgJ9rB5f" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="52iPgJ9rB1X" role="3EZMnx">
+        <property role="3F0ifm" value="Remarks:" />
+      </node>
+      <node concept="1iCGBv" id="52iPgJ9rBho" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:52iPgJ8BFRv" resolve="matchingIgnoredProperties" />
+        <node concept="1sVBvm" id="52iPgJ9rBhq" role="1sWHZn">
+          <node concept="3F2HdR" id="52iPgJ9rBjR" role="2wV5jI">
+            <ref role="1NtTu8" to="b9dh:52iPgJ9rAkO" resolve="remarks" />
+            <node concept="2iRkQZ" id="52iPgJ9rBmj" role="2czzBx" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="52iPgJ9rAWl" role="2iSdaV" />
     </node>
   </node>
 </model>

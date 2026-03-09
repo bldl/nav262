@@ -399,17 +399,6 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="$M7JgvNeDj" resolve="NavigationClause" />
   </node>
-  <node concept="1TIwiD" id="6Kpi7IfH_NI">
-    <property role="EcuMT" value="7789336726043253998" />
-    <property role="TrG5h" value="DecorationActionAnnotate" />
-    <property role="34LRSv" value="annotate" />
-    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
-    <node concept="1TJgyi" id="6Kpi7IfH_NJ" role="1TKVEl">
-      <property role="IQ2nx" value="7789336726043253999" />
-      <property role="TrG5h" value="annotationText" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6Kpi7Ig9zYQ">
     <property role="EcuMT" value="7789336726050586550" />
     <property role="TrG5h" value="DecorationActionHighlight" />
@@ -672,6 +661,17 @@
     <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
     <node concept="PrWs8" id="52iPgJ9lXD8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52iPgJ9rt4T">
+    <property role="EcuMT" value="5805937116234764601" />
+    <property role="TrG5h" value="DecorationActionAddBookmarkToSteps" />
+    <property role="34LRSv" value="add-bookmark-to-steps" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="52iPgJ9rtit" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116234765469" />
+      <property role="TrG5h" value="bookmarkText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
