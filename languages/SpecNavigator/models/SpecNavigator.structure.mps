@@ -654,5 +654,16 @@
       <ref role="AX2Wp" to="b9dh:52iPgJ85_RG" resolve="RGBHexColor" />
     </node>
   </node>
+  <node concept="1TIwiD" id="52iPgJ9fYma">
+    <property role="EcuMT" value="5805937116231755146" />
+    <property role="TrG5h" value="DecorationActionAddRemark" />
+    <property role="34LRSv" value="add-remark" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="52iPgJ9fYmb" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116231755147" />
+      <property role="TrG5h" value="remarkText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

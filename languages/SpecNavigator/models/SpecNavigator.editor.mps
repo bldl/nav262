@@ -1313,5 +1313,23 @@
       <node concept="2iRfu4" id="52iPgJ82ubw" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="52iPgJ9gawq">
+    <ref role="1XX52x" to="8wbp:52iPgJ9fYma" resolve="DecorationActionAddRemark" />
+    <node concept="3EZMnI" id="52iPgJ9gay2" role="2wV5jI">
+      <node concept="PMmxH" id="52iPgJ9gay3" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="52iPgJ9gay4" role="3EZMnx">
+        <property role="3F0ifm" value="add-remark:" />
+      </node>
+      <node concept="3F0A7n" id="52iPgJ9gay5" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:52iPgJ9fYmb" resolve="remarkText" />
+        <node concept="Vb9p2" id="52iPgJ9gay6" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="52iPgJ9gay7" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
