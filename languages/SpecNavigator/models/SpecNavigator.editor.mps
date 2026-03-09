@@ -1331,5 +1331,20 @@
       <node concept="2iRfu4" id="52iPgJ9gay7" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="52iPgJ9lZNk">
+    <ref role="1XX52x" to="8wbp:52iPgJ9lXzy" resolve="CodeEditorActionPutIntoFolder" />
+    <node concept="3EZMnI" id="52iPgJ9lZPJ" role="2wV5jI">
+      <node concept="PMmxH" id="52iPgJ9lZPK" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="52iPgJ9lZPL" role="3EZMnx">
+        <property role="3F0ifm" value="put-into-folder:" />
+      </node>
+      <node concept="3F0A7n" id="52iPgJ9lZRX" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="2iRfu4" id="52iPgJ9lZPM" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

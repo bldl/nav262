@@ -99,6 +99,7 @@
       <concept id="5805937116231755146" name="SpecNavigator.structure.DecorationActionAddRemark" flags="ng" index="2pFj21">
         <property id="5805937116231755147" name="remarkText" index="2pFj20" />
       </concept>
+      <concept id="5805937116233324770" name="SpecNavigator.structure.CodeEditorActionPutIntoFolder" flags="ng" index="2pLgRD" />
       <concept id="968737421154712635" name="SpecNavigator.structure.FilteringConditionBodyContains" flags="ng" index="11Z5AQ">
         <child id="968737421154713415" name="pattern" index="11Z5Fa" />
       </concept>
@@ -1586,6 +1587,75 @@
                   <node concept="2jxLKc" id="52iPgJ9kzfX" role="1tU5fm" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="52iPgJ9nUua">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="TrG5h" value="DecorateAlgorithmPutIntoFolder" />
+    <node concept="1qefOq" id="52iPgJ9nUwm" role="1SKRRt">
+      <node concept="15s5l7" id="52iPgJ9nYt7" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Abstract concept instance detected. Use one of sub-concepts instead. Concept: Step&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/7283836008113027554]&quot;;" />
+        <property role="huDt6" value="Error: Abstract concept instance detected. Use one of sub-concepts instead. Concept: Step" />
+      </node>
+      <node concept="27ygs1" id="52iPgJ9nUxs" role="1qenE9">
+        <node concept="mO8bw" id="52iPgJ9nUxt" role="mO8KT">
+          <node concept="2o35Rs" id="52iPgJ9nUxu" role="2o36zk">
+            <property role="2o35Nw" value="false" />
+            <property role="2o35NA" value="8cff32" />
+            <property role="2o35NB" value="false" />
+            <property role="2o35Nx" value="true" />
+          </node>
+        </node>
+        <node concept="2129W1" id="52iPgJ9nUxv" role="2128o7" />
+        <node concept="3xLA65" id="52iPgJ9nUzU" role="lGtFl">
+          <property role="TrG5h" value="algo" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="52iPgJ9nUAc" role="1SKRRt">
+      <node concept="2pLgRD" id="52iPgJ9nUB1" role="1qenE9">
+        <property role="TrG5h" value="my-folder" />
+        <node concept="3xLA65" id="52iPgJ9nUCC" role="lGtFl">
+          <property role="TrG5h" value="action" />
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="52iPgJ9nUvL" role="1SL9yI">
+      <property role="TrG5h" value="run" />
+      <node concept="3cqZAl" id="52iPgJ9nUvM" role="3clF45" />
+      <node concept="3clFbS" id="52iPgJ9nUvN" role="3clF47">
+        <node concept="3clFbF" id="52iPgJ9nUDJ" role="3cqZAp">
+          <node concept="2OqwBi" id="52iPgJ9nUNn" role="3clFbG">
+            <node concept="3xONca" id="52iPgJ9nUDI" role="2Oq$k0">
+              <ref role="3xOPvv" node="52iPgJ9nUCC" resolve="action" />
+            </node>
+            <node concept="2qgKlT" id="52iPgJ9nV1i" role="2OqNvi">
+              <ref role="37wK5l" to="uow6:44BPNitYkVO" resolve="execute" />
+              <node concept="3xONca" id="52iPgJ9nV7P" role="37wK5m">
+                <ref role="3xOPvv" node="52iPgJ9nUzU" resolve="algo" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="52iPgJ9nVbe" role="3cqZAp">
+          <node concept="2OqwBi" id="52iPgJ9o61c" role="3tpDZB">
+            <node concept="3xONca" id="52iPgJ9nV$_" role="2Oq$k0">
+              <ref role="3xOPvv" node="52iPgJ9nUCC" resolve="action" />
+            </node>
+            <node concept="3TrcHB" id="52iPgJ9o6mZ" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="52iPgJ9nVje" role="3tpDZA">
+            <node concept="3xONca" id="52iPgJ9nVbP" role="2Oq$k0">
+              <ref role="3xOPvv" node="52iPgJ9nUzU" resolve="algo" />
+            </node>
+            <node concept="3TrcHB" id="52iPgJ9nVxF" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:hnGE5uv" resolve="virtualPackage" />
             </node>
           </node>
         </node>

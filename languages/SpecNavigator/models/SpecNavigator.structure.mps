@@ -665,5 +665,14 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="52iPgJ9lXzy">
+    <property role="EcuMT" value="5805937116233324770" />
+    <property role="TrG5h" value="CodeEditorActionPutIntoFolder" />
+    <property role="34LRSv" value="put-into-folder" />
+    <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
+    <node concept="PrWs8" id="52iPgJ9lXD8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
