@@ -26,7 +26,15 @@
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
+        <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
+      </concept>
+      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
+        <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+      <concept id="1210673684636" name="jetbrains.mps.lang.test.structure.TestNodeAnnotation" flags="ng" index="3xLA65" />
+      <concept id="1210674524691" name="jetbrains.mps.lang.test.structure.TestNodeReference" flags="nn" index="3xONca">
+        <reference id="1210674534086" name="declaration" index="3xOPvv" />
       </concept>
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
@@ -79,6 +87,7 @@
         <child id="3630602537411998090" name="conditions" index="2hs8Lf" />
       </concept>
       <concept id="5805937116206152481" name="SpecNavigator.structure.FilteringConditionHasBookmark" flags="ng" index="2naYSE" />
+      <concept id="5805937116207671711" name="SpecNavigator.structure.FilteringConditionHasRemark" flags="ng" index="2ngFMk" />
       <concept id="968737421154712635" name="SpecNavigator.structure.FilteringConditionBodyContains" flags="ng" index="11Z5AQ">
         <child id="968737421154713415" name="pattern" index="11Z5Fa" />
       </concept>
@@ -101,6 +110,7 @@
         <child id="2898209948056166942" name="ref" index="2ena29" />
       </concept>
       <concept id="3374246571670890155" name="ECMAScriptSpecificationLanguage.structure.TrueLiteral" flags="ng" index="fP_Ra" />
+      <concept id="1215968978818828621" name="ECMAScriptSpecificationLanguage.structure.Remark" flags="ng" index="gIZgl" />
       <concept id="6023618387430126562" name="ECMAScriptSpecificationLanguage.structure.Step" flags="ng" index="mO8bw">
         <property id="1215968978821644173" name="highlightColor" index="gkgbl" />
         <property id="6060921558120501681" name="isMatching" index="3nmMAU" />
@@ -110,6 +120,7 @@
         <property id="64310381453833017" name="id" index="2128Fa" />
         <property id="64310381461643013" name="location" index="22w6rQ" />
         <child id="64310381453836276" name="sections" index="2128o7" />
+        <child id="1215968978818828629" name="remarks" index="gIZgd" />
         <child id="6023618387430128955" name="body" index="mO8KT" />
         <child id="7953669392353775690" name="bookmarks" index="1AhsLA" />
       </concept>
@@ -123,6 +134,9 @@
         <reference id="5475492541938311211" name="ref" index="2nt7Hv" />
       </concept>
       <concept id="8587439202318933763" name="ECMAScriptSpecificationLanguage.structure.NumericMethod" flags="ng" index="2BlQ_R" />
+      <concept id="8121864006396675135" name="ECMAScriptSpecificationLanguage.structure.SimpleNumberLiteral" flags="ng" index="RYaLR">
+        <property id="8121864006396675138" name="value" index="RYaKa" />
+      </concept>
       <concept id="3646553686890026732" name="ECMAScriptSpecificationLanguage.structure.BigIntLiteral" flags="ng" index="VSVYI">
         <property id="3646553686890027512" name="value" index="VSV2U" />
       </concept>
@@ -165,6 +179,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -859,57 +874,14 @@
   </node>
   <node concept="1lH9Xt" id="52iPgJ7Klwt">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="TrG5h" value="FilterAlgorithmByTags" />
+    <property role="TrG5h" value="FilterAlgorithmByTagsAndRemarks" />
     <node concept="1LZb2c" id="52iPgJ7KlEP" role="1SL9yI">
       <property role="TrG5h" value="run" />
       <node concept="3cqZAl" id="52iPgJ7KlEQ" role="3clF45" />
       <node concept="3clFbS" id="52iPgJ7KlER" role="3clF47">
-        <node concept="3cpWs8" id="52iPgJ7KlZW" role="3cqZAp">
-          <node concept="3cpWsn" id="52iPgJ7KlZZ" role="3cpWs9">
-            <property role="TrG5h" value="algo1" />
-            <node concept="3Tqbb2" id="52iPgJ7KlZU" role="1tU5fm">
-              <ref role="ehGHo" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
-            </node>
-            <node concept="2c44tf" id="52iPgJ7Km4f" role="33vP2m">
-              <node concept="27ygs1" id="52iPgJ7Km7I" role="2c44tc">
-                <node concept="mO8bw" id="52iPgJ7Km7J" role="mO8KT">
-                  <property role="3nmMAU" value="true" />
-                  <property role="gkgbl" value="8cff32" />
-                </node>
-                <node concept="2129W1" id="52iPgJ7Km7K" role="2128o7" />
-                <node concept="1AvDwG" id="52iPgJ7Kmbd" role="1AhsLA">
-                  <property role="TrG5h" value="hello" />
-                </node>
-                <node concept="1AvDwG" id="52iPgJ7Kmce" role="1AhsLA">
-                  <property role="TrG5h" value="world" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="52iPgJ7Kmjg" role="3cqZAp">
-          <node concept="3cpWsn" id="52iPgJ7Kmjj" role="3cpWs9">
-            <property role="TrG5h" value="algo2" />
-            <node concept="3Tqbb2" id="52iPgJ7Kmje" role="1tU5fm">
-              <ref role="ehGHo" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
-            </node>
-            <node concept="2c44tf" id="52iPgJ7Kmtx" role="33vP2m">
-              <node concept="27ygs1" id="52iPgJ7KmxN" role="2c44tc">
-                <node concept="1AvDwG" id="52iPgJ7Km$v" role="1AhsLA">
-                  <property role="TrG5h" value="world" />
-                </node>
-                <node concept="mO8bw" id="52iPgJ7KmxO" role="mO8KT">
-                  <property role="3nmMAU" value="true" />
-                  <property role="gkgbl" value="8cff32" />
-                </node>
-                <node concept="2129W1" id="52iPgJ7KmxP" role="2128o7" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="52iPgJ7KlKW" role="3cqZAp">
           <node concept="3cpWsn" id="52iPgJ7KlKZ" role="3cpWs9">
-            <property role="TrG5h" value="cond" />
+            <property role="TrG5h" value="condTag" />
             <node concept="3Tqbb2" id="52iPgJ7KlKV" role="1tU5fm">
               <ref role="ehGHo" to="8wbp:52iPgJ7IjGx" resolve="FilteringConditionHasBookmark" />
             </node>
@@ -920,7 +892,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="52iPgJ7KB65" role="3cqZAp" />
         <node concept="3vwNmj" id="52iPgJ7KBcO" role="3cqZAp">
           <node concept="2OqwBi" id="52iPgJ7KBlI" role="3vwVQn">
             <node concept="37vLTw" id="52iPgJ7KBdN" role="2Oq$k0">
@@ -928,8 +899,8 @@
             </node>
             <node concept="2qgKlT" id="52iPgJ7KBAh" role="2OqNvi">
               <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
-              <node concept="37vLTw" id="52iPgJ7KBH$" role="37wK5m">
-                <ref role="3cqZAo" node="52iPgJ7KlZZ" resolve="algo1" />
+              <node concept="3xONca" id="52iPgJ7OjuC" role="37wK5m">
+                <ref role="3xOPvv" node="52iPgJ7Oj5W" resolve="algo1" />
               </node>
             </node>
           </node>
@@ -941,11 +912,108 @@
             </node>
             <node concept="2qgKlT" id="52iPgJ7KCEc" role="2OqNvi">
               <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
-              <node concept="37vLTw" id="52iPgJ7KCFr" role="37wK5m">
-                <ref role="3cqZAo" node="52iPgJ7Kmjj" resolve="algo2" />
+              <node concept="3xONca" id="52iPgJ7Ojxl" role="37wK5m">
+                <ref role="3xOPvv" node="52iPgJ7OjmG" resolve="algo2" />
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3clFbH" id="52iPgJ7SgZd" role="3cqZAp" />
+        <node concept="3cpWs8" id="52iPgJ7Sh1c" role="3cqZAp">
+          <node concept="3cpWsn" id="52iPgJ7Sh1f" role="3cpWs9">
+            <property role="TrG5h" value="condRemark" />
+            <node concept="3Tqbb2" id="52iPgJ7Sh1a" role="1tU5fm">
+              <ref role="ehGHo" to="8wbp:52iPgJ7O6Av" resolve="FilteringConditionHasRemark" />
+            </node>
+            <node concept="2c44tf" id="52iPgJ7Shmg" role="33vP2m">
+              <node concept="2ngFMk" id="52iPgJ7Shpb" role="2c44tc">
+                <property role="TrG5h" value="this will match" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vFxKo" id="52iPgJ7Sisa" role="3cqZAp">
+          <node concept="2OqwBi" id="52iPgJ7SiuG" role="3vFALc">
+            <node concept="37vLTw" id="52iPgJ7SitL" role="2Oq$k0">
+              <ref role="3cqZAo" node="52iPgJ7Sh1f" resolve="condRemark" />
+            </node>
+            <node concept="2qgKlT" id="52iPgJ7SiRC" role="2OqNvi">
+              <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
+              <node concept="3xONca" id="52iPgJ7SiSQ" role="37wK5m">
+                <ref role="3xOPvv" node="52iPgJ7Oj5W" resolve="algo1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="52iPgJ7ShHO" role="3cqZAp">
+          <node concept="2OqwBi" id="52iPgJ7ShYj" role="3vwVQn">
+            <node concept="37vLTw" id="52iPgJ7ShPS" role="2Oq$k0">
+              <ref role="3cqZAo" node="52iPgJ7Sh1f" resolve="condRemark" />
+            </node>
+            <node concept="2qgKlT" id="52iPgJ7Siil" role="2OqNvi">
+              <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
+              <node concept="3xONca" id="52iPgJ7SipA" role="37wK5m">
+                <ref role="3xOPvv" node="52iPgJ7OjmG" resolve="algo2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="52iPgJ7OiKq" role="1SKRRt">
+      <node concept="27ygs1" id="52iPgJ7OiM4" role="1qenE9">
+        <node concept="gIZgl" id="52iPgJ7SgGH" role="gIZgd">
+          <property role="TrG5h" value="this will not match" />
+        </node>
+        <node concept="1AvDwG" id="52iPgJ7Oj7i" role="1AhsLA">
+          <property role="TrG5h" value="hello" />
+        </node>
+        <node concept="1AvDwG" id="52iPgJ7Oj7$" role="1AhsLA">
+          <property role="TrG5h" value="world" />
+        </node>
+        <node concept="3SOkj" id="52iPgJ7PY_a" role="mO8KT">
+          <property role="3nmMAU" value="true" />
+          <property role="gkgbl" value="8cff32" />
+          <node concept="3SOkl" id="52iPgJ7PY_c" role="3SOki">
+            <node concept="1xz9Ie" id="52iPgJ7QNOS" role="3SOkk">
+              <property role="3nmMAU" value="true" />
+              <property role="gkgbl" value="8cff32" />
+              <node concept="RYaLR" id="52iPgJ7QNU7" role="1xz9If">
+                <property role="RYaKa" value="0" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2129W1" id="52iPgJ7OiM6" role="2128o7" />
+        <node concept="3xLA65" id="52iPgJ7Oj5W" role="lGtFl">
+          <property role="TrG5h" value="algo1" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="52iPgJ7Ojki" role="1SKRRt">
+      <node concept="27ygs1" id="52iPgJ7Ojmo" role="1qenE9">
+        <node concept="gIZgl" id="52iPgJ7SgO$" role="gIZgd">
+          <property role="TrG5h" value="this will match" />
+        </node>
+        <node concept="1AvDwG" id="52iPgJ7OjnL" role="1AhsLA">
+          <property role="TrG5h" value="world" />
+        </node>
+        <node concept="3SOkj" id="52iPgJ7PYGZ" role="mO8KT">
+          <property role="3nmMAU" value="true" />
+          <property role="gkgbl" value="8cff32" />
+          <node concept="3SOkl" id="52iPgJ7QNWh" role="3SOki">
+            <node concept="1xz9Ie" id="52iPgJ7QNWi" role="3SOkk">
+              <property role="3nmMAU" value="true" />
+              <property role="gkgbl" value="8cff32" />
+              <node concept="RYaLR" id="52iPgJ7QNWj" role="1xz9If">
+                <property role="RYaKa" value="0" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2129W1" id="52iPgJ7Ojmq" role="2128o7" />
+        <node concept="3xLA65" id="52iPgJ7OjmG" role="lGtFl">
+          <property role="TrG5h" value="algo2" />
         </node>
       </node>
     </node>
