@@ -415,12 +415,10 @@
     <property role="TrG5h" value="DecorationActionHighlight" />
     <property role="34LRSv" value="highlight-steps" />
     <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
-    <node concept="1TJgyj" id="13vZlw0vryH" role="1TKVEi">
-      <property role="IQ2ns" value="1215968978820511917" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="color" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpc2:hPiSF6w" resolve="RGBColor" />
+    <node concept="1TJgyi" id="52iPgJ8hxXg" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116215385936" />
+      <property role="TrG5h" value="color" />
+      <ref role="AX2Wp" to="b9dh:52iPgJ85_RG" resolve="RGBHexColor" />
     </node>
   </node>
   <node concept="1TIwiD" id="5gsI0I3JXaR">
@@ -645,6 +643,16 @@
     <property role="TrG5h" value="FilteringConditionHasPrunedStep" />
     <property role="34LRSv" value="has-pruned-step" />
     <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
+  </node>
+  <node concept="1TIwiD" id="52iPgJ82u65">
+    <property role="EcuMT" value="5805937116211437957" />
+    <property role="TrG5h" value="FilteringConditionHasHighlightedStep" />
+    <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
+    <node concept="1TJgyi" id="52iPgJ82OT1" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116211531329" />
+      <property role="TrG5h" value="color" />
+      <ref role="AX2Wp" to="b9dh:52iPgJ85_RG" resolve="RGBHexColor" />
+    </node>
   </node>
 </model>
 

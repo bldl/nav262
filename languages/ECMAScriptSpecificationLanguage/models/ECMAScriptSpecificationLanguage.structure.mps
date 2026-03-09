@@ -10,6 +10,12 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -121,7 +127,7 @@
     <node concept="1TJgyi" id="13vZlw0zJYd" role="1TKVEl">
       <property role="IQ2nx" value="1215968978821644173" />
       <property role="TrG5h" value="highlightColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="52iPgJ85_RG" resolve="RGBHexColor" />
     </node>
   </node>
   <node concept="1TIwiD" id="5eocg95ibf_">
@@ -2184,6 +2190,11 @@
     <node concept="PrWs8" id="13vZlw0p0_e" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="52iPgJ85_RG">
+    <property role="3F6X1D" value="5805937116212256236" />
+    <property role="TrG5h" value="RGBHexColor" />
+    <property role="FLfZY" value="^[a-f0-9]{6}$" />
   </node>
 </model>
 

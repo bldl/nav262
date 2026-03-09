@@ -92,6 +92,7 @@
         <property id="1215007802031" name="value" index="3$6WeP" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -947,8 +948,9 @@
       <node concept="3F0ifn" id="6Kpi7IgalcW" role="3EZMnx">
         <property role="3F0ifm" value="highlight-steps:" />
       </node>
-      <node concept="3F1sOY" id="13vZlw0vryK" role="3EZMnx">
-        <ref role="1NtTu8" to="8wbp:13vZlw0vryH" resolve="color" />
+      <node concept="3F0A7n" id="52iPgJ8hxZr" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;RGB color&gt;" />
+        <ref role="1NtTu8" to="8wbp:52iPgJ8hxXg" resolve="color" />
       </node>
       <node concept="2iRfu4" id="6Kpi7IgalcZ" role="2iSdaV" />
     </node>
@@ -1293,6 +1295,22 @@
         <property role="3F0ifm" value="has-pruned-step" />
       </node>
       <node concept="2iRfu4" id="52iPgJ7WApm" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="52iPgJ82u91">
+    <ref role="1XX52x" to="8wbp:52iPgJ82u65" resolve="FilteringConditionHasHighlightedStep" />
+    <node concept="3EZMnI" id="52iPgJ82ubs" role="2wV5jI">
+      <node concept="PMmxH" id="52iPgJ82ubt" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="52iPgJ82ubu" role="3EZMnx">
+        <property role="3F0ifm" value="has-highlighted-step-with-color:" />
+      </node>
+      <node concept="3F0A7n" id="52iPgJ82OWf" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;RGB color&gt;" />
+        <ref role="1NtTu8" to="8wbp:52iPgJ82OT1" resolve="color" />
+      </node>
+      <node concept="2iRfu4" id="52iPgJ82ubw" role="2iSdaV" />
     </node>
   </node>
 </model>
