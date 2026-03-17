@@ -8167,5 +8167,78 @@
       <node concept="2iRfu4" id="HZD0Mbt2eP" role="2iSdaV" />
     </node>
   </node>
+  <node concept="PKFIW" id="HZD0Mc4sa_">
+    <property role="TrG5h" value="ResumeTopContextStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0Mc4rH2" resolve="ResumeTopContextStep" />
+    <node concept="3EZMnI" id="HZD0Mc4snp" role="2wV5jI">
+      <node concept="PMmxH" id="HZD0Mc4sp3" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="HZD0Mc4sru" role="3EZMnx">
+        <property role="3F0ifm" value="Resume the context that is now on the top of the execution context stack as the running execution context" />
+      </node>
+      <node concept="PMmxH" id="HZD0Mc4st7" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+      <node concept="2iRfu4" id="HZD0Mc4sns" role="2iSdaV" />
+    </node>
+    <node concept="1PE4EZ" id="HZD0McfJvH" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0Mcla8y">
+    <property role="TrG5h" value="ResumeStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0Mcl7Xp" resolve="ResumeStep" />
+    <node concept="1PE4EZ" id="HZD0MclaaX" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+    <node concept="3EZMnI" id="7sn0cJzJhhz" role="2wV5jI">
+      <node concept="3EZMnI" id="HZD0MclafK" role="3EZMnx">
+        <node concept="PMmxH" id="HZD0Mclaid" role="3EZMnx">
+          <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+        </node>
+        <node concept="3F0ifn" id="HZD0MclakE" role="3EZMnx">
+          <property role="3F0ifm" value="Resume" />
+        </node>
+        <node concept="3F1sOY" id="HZD0Mclan6" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9Lm" />
+        </node>
+        <node concept="3F0ifn" id="HZD0MclaoJ" role="3EZMnx">
+          <property role="3F0ifm" value="passing" />
+        </node>
+        <node concept="3F1sOY" id="HZD0Mclaqo" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9QW" />
+        </node>
+        <node concept="3F0ifn" id="HZD0Mclare" role="3EZMnx">
+          <property role="3F0ifm" value="." />
+          <ref role="1k5W1q" node="39yvsmyz9Kf" resolve="Dot" />
+        </node>
+        <node concept="3F0ifn" id="HZD0MclaxD" role="3EZMnx">
+          <property role="3F0ifm" value=" If" />
+        </node>
+        <node concept="3F1sOY" id="HZD0Mcla$S" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9U9" />
+        </node>
+        <node concept="3F0ifn" id="HZD0Mcla_I" role="3EZMnx">
+          <property role="3F0ifm" value="is ever resumed again, let" />
+        </node>
+        <node concept="3F1sOY" id="HZD0MclaHO" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9ZJ" />
+        </node>
+        <node concept="3F0ifn" id="HZD0MclaL5" role="3EZMnx">
+          <property role="3F0ifm" value="be the Completion Record with which it is resumed" />
+        </node>
+        <node concept="PMmxH" id="HZD0Mclaj2" role="3EZMnx">
+          <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+        </node>
+        <node concept="2iRfu4" id="HZD0MclafN" role="2iSdaV" />
+      </node>
+      <node concept="3F2HdR" id="7sn0cJzJhkO" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0Mcla3J" resolve="steps" />
+        <node concept="2iRkQZ" id="7sn0cJzJhkQ" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="7sn0cJzJhhA" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
