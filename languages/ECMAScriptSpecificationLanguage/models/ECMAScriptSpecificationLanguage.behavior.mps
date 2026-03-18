@@ -3861,5 +3861,41 @@
       <node concept="10Oyi0" id="7sn0cJ$0IcA" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="7sn0cJ_x2JU">
+    <ref role="13h7C2" to="b9dh:2VjIQ4yY7Mq" resolve="HexLiteral" />
+    <node concept="13i0hz" id="7sn0cJ_x2LN" role="13h7CS">
+      <property role="TrG5h" value="toPresentation" />
+      <node concept="3Tm1VV" id="7sn0cJ_x2LO" role="1B3o_S" />
+      <node concept="17QB3L" id="7sn0cJ_x2P_" role="3clF45" />
+      <node concept="3clFbS" id="7sn0cJ_x2LQ" role="3clF47">
+        <node concept="3cpWs6" id="7sn0cJ_x37Q" role="3cqZAp">
+          <node concept="2YIFZM" id="7sn0cJ_x3cS" role="3cqZAk">
+            <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
+            <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+            <node concept="Xl_RD" id="7sn0cJ_x3tF" role="37wK5m">
+              <property role="Xl_RC" value="%04X" />
+            </node>
+            <node concept="2YIFZM" id="7sn0cJ_x3PI" role="37wK5m">
+              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String,int)" resolve="parseInt" />
+              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+              <node concept="37vLTw" id="7sn0cJ_x4i$" role="37wK5m">
+                <ref role="3cqZAo" node="7sn0cJ_x2VU" resolve="decimalValue" />
+              </node>
+              <node concept="3cmrfG" id="7sn0cJ_x4kZ" role="37wK5m">
+                <property role="3cmrfH" value="10" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7sn0cJ_x2VU" role="3clF46">
+        <property role="TrG5h" value="decimalValue" />
+        <node concept="17QB3L" id="7sn0cJ_x2VT" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="7sn0cJ_x2JV" role="13h7CW">
+      <node concept="3clFbS" id="7sn0cJ_x2JW" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

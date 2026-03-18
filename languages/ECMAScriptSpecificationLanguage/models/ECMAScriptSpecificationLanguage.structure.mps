@@ -621,7 +621,7 @@
   <node concept="1TIwiD" id="6fyZdSNwEGe">
     <property role="EcuMT" value="7197593185768614670" />
     <property role="TrG5h" value="UnaryExpression" />
-    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <ref role="1TJDcQ" node="2uuTNnaZ8eC" resolve="CalcExpression" />
     <node concept="1TJgyj" id="6fyZdSNwEGh" role="1TKVEi">
       <property role="IQ2ns" value="7197593185768614673" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2479,6 +2479,19 @@
       <property role="20kJfa" value="args" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7sn0cJ$l8Z4">
+    <property role="EcuMT" value="8581328490686877636" />
+    <property role="TrG5h" value="MathConstantLiteral" />
+    <ref role="1TJDcQ" node="6fyZdSQSvpy" resolve="MathValueLiteral" />
+    <node concept="1TJgyi" id="7sn0cJ$l95t" role="1TKVEl">
+      <property role="IQ2nx" value="8581328490686878045" />
+      <property role="TrG5h" value="mulFactor" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="7sn0cJ$l9bR" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
