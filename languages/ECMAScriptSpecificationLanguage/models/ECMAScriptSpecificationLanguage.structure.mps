@@ -2615,5 +2615,13 @@
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4nPjfB_3J7B">
+    <property role="EcuMT" value="5041019994084667879" />
+    <property role="TrG5h" value="NonterminalProperty" />
+    <ref role="1TJDcQ" node="2uuTNnb5b4Y" resolve="Property" />
+    <node concept="PrWs8" id="4nPjfB_3JbB" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
