@@ -2598,5 +2598,22 @@
       <ref role="20lvS9" node="2uuTNnaZf$S" resolve="Reference" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7sn0cJCk1wx">
+    <property role="EcuMT" value="8581328490753693729" />
+    <property role="TrG5h" value="MathOpExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyi" id="7sn0cJCk1BI" role="1TKVEl">
+      <property role="IQ2nx" value="8581328490753694190" />
+      <property role="TrG5h" value="op" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="7sn0cJCk1E8" role="1TKVEi">
+      <property role="IQ2ns" value="8581328490753694344" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 

@@ -88,9 +88,11 @@
       <concept id="1074767920765" name="jetbrains.mps.lang.editor.structure.CellModel_ModelAccess" flags="sg" stub="8104358048506729357" index="XafU7">
         <child id="1176718152741" name="modelAcessor" index="3TRxkO" />
       </concept>
+      <concept id="1182191800432" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeListFilter" flags="in" index="107P5z" />
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
+      <concept id="1182233249301" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_childNode" flags="nn" index="12_Ws6" />
       <concept id="3383245079137422349" name="jetbrains.mps.lang.editor.structure.StyleClassReference" flags="ng" index="14SbXO">
         <reference id="3383245079137422350" name="styleClass" index="14SbXR" />
       </concept>
@@ -151,7 +153,9 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
-      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
+        <child id="1182233390675" name="filter" index="12AuX0" />
+      </concept>
       <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
         <child id="1225898971709" name="getter" index="1Hhtcw" />
       </concept>
@@ -365,6 +369,10 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
@@ -8703,6 +8711,941 @@
     </node>
     <node concept="1PE4EZ" id="7sn0cJBSQFa" role="1PM95z">
       <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7sn0cJCk21n">
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="7sn0cJCk24A" role="2wV5jI">
+      <node concept="PMmxH" id="7sn0cJCkmu8" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCkmtT" resolve="Negation" />
+      </node>
+      <node concept="PMmxH" id="7sn0cJCkmFm" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCkmF7" resolve="Sum" />
+      </node>
+      <node concept="2iRfu4" id="7sn0cJCk24D" role="2iSdaV" />
+      <node concept="PMmxH" id="7sn0cJCkmRK" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCkmRx" resolve="Product" />
+      </node>
+      <node concept="PMmxH" id="7sn0cJCkmWd" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCkmVY" resolve="Subtraction" />
+      </node>
+      <node concept="PMmxH" id="7sn0cJCkn7f" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCkn6K" resolve="Pow" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztnVU" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztnVS" resolve="Exp" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzflhE" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzflhC" resolve="ExpMinusOne" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzf_pS" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzf_pQ" resolve="Log10" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzfBMS" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzfBMQ" resolve="Log2" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztq19" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztq17" resolve="Log" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztsmW" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztsmU" resolve="Log1p" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzn1d8" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzn1d6" resolve="Trig" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztjLE" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztjLC" resolve="CubeRoot" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztlGE" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztlGC" resolve="SquareRoot" />
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="7sn0cJCkmtT">
+    <property role="TrG5h" value="Negation" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="7sn0cJCkmtU" role="2wV5jI">
+      <node concept="VPM3Z" id="7sn0cJCkmtV" role="3F10Kt" />
+      <node concept="3F0ifn" id="7sn0cJCkmtW" role="3EZMnx">
+        <property role="3F0ifm" value="the negation of" />
+      </node>
+      <node concept="3F2HdR" id="7sn0cJCkmtX" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" resolve="args" />
+        <node concept="2iRfu4" id="7sn0cJCkmtY" role="2czzBx" />
+      </node>
+      <node concept="2iRfu4" id="7sn0cJCkmtZ" role="2iSdaV" />
+      <node concept="pkWqt" id="7sn0cJCkmu0" role="pqm2j">
+        <node concept="3clFbS" id="7sn0cJCkmu1" role="2VODD2">
+          <node concept="3clFbF" id="7sn0cJCkmu2" role="3cqZAp">
+            <node concept="17R0WA" id="7sn0cJCkmu3" role="3clFbG">
+              <node concept="Xl_RD" id="7sn0cJCkmu4" role="3uHU7w">
+                <property role="Xl_RC" value="Neg" />
+              </node>
+              <node concept="2OqwBi" id="7sn0cJCkmu5" role="3uHU7B">
+                <node concept="pncrf" id="7sn0cJCkmu6" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7sn0cJCkmu7" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="7sn0cJCkmF7">
+    <property role="TrG5h" value="Sum" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="7sn0cJCkmF8" role="2wV5jI">
+      <node concept="VPM3Z" id="7sn0cJCkmF9" role="3F10Kt" />
+      <node concept="3F0ifn" id="7sn0cJCkmFa" role="3EZMnx">
+        <property role="3F0ifm" value="the sum of" />
+      </node>
+      <node concept="3F2HdR" id="7sn0cJCkmFb" role="3EZMnx">
+        <property role="2czwfO" value="and" />
+        <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" resolve="args" />
+        <node concept="2iRfu4" id="7sn0cJCkmFc" role="2czzBx" />
+      </node>
+      <node concept="2iRfu4" id="7sn0cJCkmFd" role="2iSdaV" />
+      <node concept="pkWqt" id="7sn0cJCkmFe" role="pqm2j">
+        <node concept="3clFbS" id="7sn0cJCkmFf" role="2VODD2">
+          <node concept="3clFbF" id="7sn0cJCkmFg" role="3cqZAp">
+            <node concept="17R0WA" id="7sn0cJCkmFh" role="3clFbG">
+              <node concept="Xl_RD" id="7sn0cJCkmFi" role="3uHU7w">
+                <property role="Xl_RC" value="Add" />
+              </node>
+              <node concept="2OqwBi" id="7sn0cJCkmFj" role="3uHU7B">
+                <node concept="pncrf" id="7sn0cJCkmFk" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7sn0cJCkmFl" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="7sn0cJCkmRx">
+    <property role="TrG5h" value="Product" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="7sn0cJCkmRy" role="2wV5jI">
+      <node concept="VPM3Z" id="7sn0cJCkmRz" role="3F10Kt" />
+      <node concept="3F0ifn" id="7sn0cJCkmR$" role="3EZMnx">
+        <property role="3F0ifm" value="the product of" />
+      </node>
+      <node concept="3F2HdR" id="7sn0cJCkmR_" role="3EZMnx">
+        <property role="2czwfO" value="and" />
+        <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" resolve="args" />
+        <node concept="2iRfu4" id="7sn0cJCkmRA" role="2czzBx" />
+      </node>
+      <node concept="2iRfu4" id="7sn0cJCkmRB" role="2iSdaV" />
+      <node concept="pkWqt" id="7sn0cJCkmRC" role="pqm2j">
+        <node concept="3clFbS" id="7sn0cJCkmRD" role="2VODD2">
+          <node concept="3clFbF" id="7sn0cJCkmRE" role="3cqZAp">
+            <node concept="17R0WA" id="7sn0cJCkmRF" role="3clFbG">
+              <node concept="Xl_RD" id="7sn0cJCkmRG" role="3uHU7w">
+                <property role="Xl_RC" value="Mul" />
+              </node>
+              <node concept="2OqwBi" id="7sn0cJCkmRH" role="3uHU7B">
+                <node concept="pncrf" id="7sn0cJCkmRI" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7sn0cJCkmRJ" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="7sn0cJCkmVY">
+    <property role="TrG5h" value="Subtraction" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="7sn0cJCkmVZ" role="2wV5jI">
+      <node concept="VPM3Z" id="7sn0cJCkmW0" role="3F10Kt" />
+      <node concept="3F0ifn" id="7sn0cJCkmW1" role="3EZMnx">
+        <property role="3F0ifm" value="the difference" />
+      </node>
+      <node concept="3F2HdR" id="7sn0cJCkmW2" role="3EZMnx">
+        <property role="2czwfO" value="minus" />
+        <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" resolve="args" />
+        <node concept="2iRfu4" id="7sn0cJCkmW3" role="2czzBx" />
+      </node>
+      <node concept="2iRfu4" id="7sn0cJCkmW4" role="2iSdaV" />
+      <node concept="pkWqt" id="7sn0cJCkmW5" role="pqm2j">
+        <node concept="3clFbS" id="7sn0cJCkmW6" role="2VODD2">
+          <node concept="3clFbF" id="7sn0cJCkmW7" role="3cqZAp">
+            <node concept="17R0WA" id="7sn0cJCkmW8" role="3clFbG">
+              <node concept="Xl_RD" id="7sn0cJCkmW9" role="3uHU7w">
+                <property role="Xl_RC" value="Sub" />
+              </node>
+              <node concept="2OqwBi" id="7sn0cJCkmWa" role="3uHU7B">
+                <node concept="pncrf" id="7sn0cJCkmWb" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7sn0cJCkmWc" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="7sn0cJCkn6K">
+    <property role="TrG5h" value="Pow" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="7sn0cJCkn6L" role="2wV5jI">
+      <node concept="VPM3Z" id="7sn0cJCkn6M" role="3F10Kt" />
+      <node concept="PMmxH" id="7sn0cJCknRg" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="3F0ifn" id="7sn0cJCkn73" role="3EZMnx">
+        <property role="3F0ifm" value="raised to the power of" />
+      </node>
+      <node concept="PMmxH" id="7sn0cJCko25" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCko22" resolve="SecondArgument" />
+      </node>
+      <node concept="2iRfu4" id="7sn0cJCkn76" role="2iSdaV" />
+      <node concept="pkWqt" id="7sn0cJCkn77" role="pqm2j">
+        <node concept="3clFbS" id="7sn0cJCkn78" role="2VODD2">
+          <node concept="3clFbF" id="7sn0cJCkn79" role="3cqZAp">
+            <node concept="17R0WA" id="7sn0cJCkn7a" role="3clFbG">
+              <node concept="Xl_RD" id="7sn0cJCkn7b" role="3uHU7w">
+                <property role="Xl_RC" value="Pow" />
+              </node>
+              <node concept="2OqwBi" id="7sn0cJCkn7c" role="3uHU7B">
+                <node concept="pncrf" id="7sn0cJCkn7d" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7sn0cJCkn7e" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="7sn0cJCknQZ">
+    <property role="TrG5h" value="FirstArgument" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3F2HdR" id="7sn0cJCknR0" role="2wV5jI">
+      <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" resolve="args" />
+      <node concept="2iRfu4" id="7sn0cJCknR1" role="2czzBx" />
+      <node concept="107P5z" id="7sn0cJCknR2" role="12AuX0">
+        <node concept="3clFbS" id="7sn0cJCknR3" role="2VODD2">
+          <node concept="3clFbF" id="7sn0cJCknR4" role="3cqZAp">
+            <node concept="17R0WA" id="7sn0cJCknR5" role="3clFbG">
+              <node concept="2OqwBi" id="7sn0cJCknR6" role="3uHU7w">
+                <node concept="2OqwBi" id="7sn0cJCknR7" role="2Oq$k0">
+                  <node concept="1PxgMI" id="7sn0cJCknR8" role="2Oq$k0">
+                    <property role="1BlNFB" value="true" />
+                    <node concept="chp4Y" id="7sn0cJCknR9" role="3oSUPX">
+                      <ref role="cht4Q" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+                    </node>
+                    <node concept="2OqwBi" id="7sn0cJCknRa" role="1m5AlR">
+                      <node concept="12_Ws6" id="7sn0cJCknRb" role="2Oq$k0" />
+                      <node concept="1mfA1w" id="7sn0cJCknRc" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="7sn0cJCknRd" role="2OqNvi">
+                    <ref role="3TtcxE" to="b9dh:7sn0cJCk1E8" resolve="args" />
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="7sn0cJCknRe" role="2OqNvi" />
+              </node>
+              <node concept="12_Ws6" id="7sn0cJCknRf" role="3uHU7B" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="7sn0cJCko22">
+    <property role="TrG5h" value="SecondArgument" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3F2HdR" id="7sn0cJCkoDV" role="2wV5jI">
+      <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" />
+      <node concept="2iRfu4" id="7sn0cJCkoDW" role="2czzBx" />
+      <node concept="107P5z" id="7sn0cJCkoDX" role="12AuX0">
+        <node concept="3clFbS" id="7sn0cJCkoDY" role="2VODD2">
+          <node concept="3clFbF" id="7sn0cJCkoDZ" role="3cqZAp">
+            <node concept="17R0WA" id="7sn0cJCkoE0" role="3clFbG">
+              <node concept="2OqwBi" id="7sn0cJCkoE1" role="3uHU7w">
+                <node concept="2OqwBi" id="7sn0cJCkoE2" role="2Oq$k0">
+                  <node concept="1PxgMI" id="7sn0cJCkoE3" role="2Oq$k0">
+                    <property role="1BlNFB" value="true" />
+                    <node concept="chp4Y" id="7sn0cJCkoE4" role="3oSUPX">
+                      <ref role="cht4Q" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+                    </node>
+                    <node concept="2OqwBi" id="7sn0cJCkoE5" role="1m5AlR">
+                      <node concept="12_Ws6" id="7sn0cJCkoE6" role="2Oq$k0" />
+                      <node concept="1mfA1w" id="7sn0cJCkoE7" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="7sn0cJCkoE8" role="2OqNvi">
+                    <ref role="3TtcxE" to="b9dh:7sn0cJCk1E8" />
+                  </node>
+                </node>
+                <node concept="34jXtK" id="7sn0cJCkr3F" role="2OqNvi">
+                  <node concept="3cmrfG" id="7sn0cJCktXA" role="25WWJ7">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+              <node concept="12_Ws6" id="7sn0cJCkoEa" role="3uHU7B" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzflhC">
+    <property role="TrG5h" value="ExpMinusOne" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzfllF" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzfllJ" role="3EZMnx">
+        <property role="3F0ifm" value="the result of subtracting 1 from the exponential function of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzflsa" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzfllI" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzfltL" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzfltM" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzfvKB" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzf$El" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzf$QM" role="3uHU7w">
+                <property role="Xl_RC" value="Expm1" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzfw1j" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzfvKA" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzfxV$" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzf_pQ">
+    <property role="TrG5h" value="Log10" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzf_tT" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzf_uK" role="3EZMnx">
+        <property role="3F0ifm" value="the base 10 logarithm of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzf__b" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzf_tW" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzf_AM" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzf_AN" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzf_Gs" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzfB5s" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzfBnH" role="3uHU7w">
+                <property role="Xl_RC" value="Log10" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzf_X8" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzf_Gr" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzfAdQ" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzfBMQ">
+    <property role="TrG5h" value="Log2" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzfBQ5" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzfBQW" role="3EZMnx">
+        <property role="3F0ifm" value="the base 2 logarithm of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzfBTo" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzfBQ8" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzfBUZ" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzfBV0" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzfBV3" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzfDas" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzfDsH" role="3uHU7w">
+                <property role="Xl_RC" value="Log2" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzfCbJ" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzfBV2" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzfCtg" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzmi68">
+    <property role="TrG5h" value="Cos" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzmi9n" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzmi9r" role="3EZMnx">
+        <property role="3F0ifm" value="the cosine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzmieg" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzmi9q" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzmifR" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzmifS" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzmilx" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzmjXC" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzmk4Q" role="3uHU7w">
+                <property role="Xl_RC" value="Cos" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzmiAd" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzmilw" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzmiQH" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzmWuX">
+    <property role="TrG5h" value="ArcCos" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzmWyZ" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzmWz3" role="3EZMnx">
+        <property role="3F0ifm" value="the inverse cosine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzmWB5" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzmWz2" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzmWBT" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzmWBU" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzmWCK" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzmY0X" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzmYje" role="3uHU7w">
+                <property role="Xl_RC" value="Acos" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzmWTs" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzmWCJ" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzmX9n" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzmYA5">
+    <property role="TrG5h" value="Cosh" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzmYEU" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzmYIc" role="3EZMnx">
+        <property role="3F0ifm" value="the hyperbolic cosine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzmYJP" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzmYEX" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzmYQf" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzmYQg" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzmYWG" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzn0gJ" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzn0AA" role="3uHU7w">
+                <property role="Xl_RC" value="Cosh" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzmZdo" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzmYWF" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzmZp9" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzn0Vm">
+    <property role="TrG5h" value="ArcCosh" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzn0YA" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzn0Zt" role="3EZMnx">
+        <property role="3F0ifm" value="the inverse hyperbolic cosine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzn13v" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzn0YD" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzn1Km" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzn1Kn" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzn1Pd" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzn3dZ" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzn3wg" role="3uHU7w">
+                <property role="Xl_RC" value="Acosh" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzn25T" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzn1Pc" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzn2xt" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzn1d6">
+    <property role="TrG5h" value="Trigonometric" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzn1iI" role="2wV5jI">
+      <node concept="PMmxH" id="4nPjfBzmi6a" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzmi68" resolve="Cos" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzmWuZ" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzmWuX" resolve="ArcCos" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzmYA7" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzmYA5" resolve="Cosh" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzn0Vo" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzn0Vm" resolve="Acosh" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzn5XZ" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzn5XX" resolve="Sin" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzn88n" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzn88l" resolve="Asin" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzna2w" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzna2u" resolve="Sinh" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzt9SE" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzt9Ss" resolve="Asinh" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztcb_" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztcbn" resolve="Tan" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztejq" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztejc" resolve="ArcTan" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzthso" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBzthsa" resolve="Tanh" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztjBT" role="3EZMnx">
+        <ref role="PMmxG" node="4nPjfBztjBF" resolve="ArcTanh" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzn1iL" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzn5XX">
+    <property role="TrG5h" value="Sin" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzn61c" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzn623" role="3EZMnx">
+        <property role="3F0ifm" value="the sine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzn64v" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzn61f" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzn666" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzn667" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzn66a" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzn7gR" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzn7Bx" role="3uHU7w">
+                <property role="Xl_RC" value="Sin" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzn6mQ" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzn669" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzn6C9" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzn88l">
+    <property role="TrG5h" value="ArcSin" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzn8cn" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzn8cr" role="3EZMnx">
+        <property role="3F0ifm" value="the inverse sine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzn8gt" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzn8cq" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzn8iR" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzn8iS" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzn8jI" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzn9tQ" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzn9K7" role="3uHU7w">
+                <property role="Xl_RC" value="Asin" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzn8$q" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzn8jH" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzn8OU" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzna2u">
+    <property role="TrG5h" value="Sinh" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBznacS" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBznacW" role="3EZMnx">
+        <property role="3F0ifm" value="the hyperbolic sine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBznagY" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBznacV" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBznai_" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBznaiA" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBznajs" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBznbH1" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBznc3F" role="3uHU7w">
+                <property role="Xl_RC" value="Sinh" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzna$8" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBznajr" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBznaTO" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzt9Ss">
+    <property role="TrG5h" value="ArcSinh" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzt9St" role="2wV5jI">
+      <node concept="VPM3Z" id="4nPjfBzt9Su" role="3F10Kt" />
+      <node concept="3F0ifn" id="4nPjfBzt9Sv" role="3EZMnx">
+        <property role="3F0ifm" value="the inverse hyperbolic sine of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzt9Sw" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzt9Sx" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzt9Sy" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzt9Sz" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzt9S$" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzt9S_" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzt9SA" role="3uHU7w">
+                <property role="Xl_RC" value="Asinh" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzt9SB" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzt9SC" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzt9SD" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztcbn">
+    <property role="TrG5h" value="Tan" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBztcbo" role="2wV5jI">
+      <node concept="VPM3Z" id="4nPjfBztcbp" role="3F10Kt" />
+      <node concept="3F0ifn" id="4nPjfBztcbq" role="3EZMnx">
+        <property role="3F0ifm" value="the tangent of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztcbr" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBztcbs" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBztcbt" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztcbu" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztcbv" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztcbw" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztcbx" role="3uHU7w">
+                <property role="Xl_RC" value="Tan" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztcby" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztcbz" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBztcb$" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztejc">
+    <property role="TrG5h" value="ArcTan" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBztejd" role="2wV5jI">
+      <node concept="VPM3Z" id="4nPjfBzteje" role="3F10Kt" />
+      <node concept="3F0ifn" id="4nPjfBztejf" role="3EZMnx">
+        <property role="3F0ifm" value="the inverse tangent of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztejg" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBztejh" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzteji" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztejj" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztejk" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztejl" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztejm" role="3uHU7w">
+                <property role="Xl_RC" value="Atan" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztejn" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztejo" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBztejp" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBzthsa">
+    <property role="TrG5h" value="Tanh" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzthsb" role="2wV5jI">
+      <node concept="VPM3Z" id="4nPjfBzthsc" role="3F10Kt" />
+      <node concept="3F0ifn" id="4nPjfBzthsd" role="3EZMnx">
+        <property role="3F0ifm" value="the hyperbolic tangent of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzthse" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzthsf" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBzthsg" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBzthsh" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBzthsi" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBzthsj" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBzthsk" role="3uHU7w">
+                <property role="Xl_RC" value="Tanh" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBzthsl" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBzthsm" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzthsn" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztjBF">
+    <property role="TrG5h" value="ArcTanh" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBztjBG" role="2wV5jI">
+      <node concept="VPM3Z" id="4nPjfBztjBH" role="3F10Kt" />
+      <node concept="3F0ifn" id="4nPjfBztjBI" role="3EZMnx">
+        <property role="3F0ifm" value="the inverse hyperbolic tangent of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztjBJ" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBztjBK" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBztjBL" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztjBM" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztjBN" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztjBO" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztjBP" role="3uHU7w">
+                <property role="Xl_RC" value="Atanh" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztjBQ" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztjBR" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBztjBS" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztjLC">
+    <property role="TrG5h" value="CubeRoot" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBztjO4" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBztjOV" role="3EZMnx">
+        <property role="3F0ifm" value="the cube root of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztjSa" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBztjO7" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBztjTL" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztjTM" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztjTP" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztl7d" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztlpu" role="3uHU7w">
+                <property role="Xl_RC" value="Cbrt" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztkax" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztjTO" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBztkru" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztlGC">
+    <property role="TrG5h" value="SquareRoot" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBztlJ4" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBztlJV" role="3EZMnx">
+        <property role="3F0ifm" value="the square root of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztlNX" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBztlJ7" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBztlP$" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztlP_" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztlQr" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztneR" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztn_x" role="3uHU7w">
+                <property role="Xl_RC" value="Sqrt" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztm77" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztlQq" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBztmnh" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztnVS">
+    <property role="TrG5h" value="Exp" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBzto4H" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzto5$" role="3EZMnx">
+        <property role="3F0ifm" value="the exponential function of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBzto9A" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBzto4K" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBztobe" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztobf" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztoc5" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztpw8" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztpHX" role="3uHU7w">
+                <property role="Xl_RC" value="Exp" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztosL" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztoc4" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBztoCy" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztq17">
+    <property role="TrG5h" value="Log" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBztq4m" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBztq6P" role="3EZMnx">
+        <property role="3F0ifm" value="the natural logarithm of" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztq9h" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBztq4p" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBztqcu" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztqcv" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztqhl" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztrNq" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztsa4" role="3uHU7w">
+                <property role="Xl_RC" value="Log" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztqy1" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztqhk" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBztqNk" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4nPjfBztsmU">
+    <property role="TrG5h" value="Log1p" />
+    <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
+    <node concept="3EZMnI" id="4nPjfBztsqX" role="2wV5jI">
+      <node concept="3F0ifn" id="4nPjfBzts_r" role="3EZMnx">
+        <property role="3F0ifm" value="the natural logarithm of 1 +" />
+      </node>
+      <node concept="PMmxH" id="4nPjfBztsF3" role="3EZMnx">
+        <ref role="PMmxG" node="7sn0cJCknQZ" resolve="FirstArgument" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfBztsr0" role="2iSdaV" />
+      <node concept="pkWqt" id="4nPjfBztsIh" role="pqm2j">
+        <node concept="3clFbS" id="4nPjfBztsIi" role="2VODD2">
+          <node concept="3clFbF" id="4nPjfBztsNV" role="3cqZAp">
+            <node concept="17R0WA" id="4nPjfBztu26" role="3clFbG">
+              <node concept="Xl_RD" id="4nPjfBztuoK" role="3uHU7w">
+                <property role="Xl_RC" value="Log1p" />
+              </node>
+              <node concept="2OqwBi" id="4nPjfBztt4B" role="3uHU7B">
+                <node concept="pncrf" id="4nPjfBztsNU" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4nPjfBzttl$" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7sn0cJCk1BI" resolve="op" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
