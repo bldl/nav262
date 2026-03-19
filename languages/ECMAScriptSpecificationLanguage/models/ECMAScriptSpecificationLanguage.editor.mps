@@ -9739,5 +9739,28 @@
       <ref role="1k5W1q" node="7sn0cJAYwf5" resolve="Nonterminal" />
     </node>
   </node>
+  <node concept="24kQdi" id="4nPjfB_FSh6">
+    <ref role="1XX52x" to="b9dh:4nPjfB_FS15" resolve="ProductionCondition" />
+    <node concept="3EZMnI" id="4nPjfB_FSjx" role="2wV5jI">
+      <node concept="3F1sOY" id="4nPjfB_FSlb" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:4nPjfB_FSd5" resolve="ntLiteral" />
+      </node>
+      <node concept="3F0ifn" id="4nPjfB_FSle" role="3EZMnx">
+        <property role="3F0ifm" value="is" />
+      </node>
+      <node concept="3F0A7n" id="4nPjfB_FSnE" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:4nPjfB_FS94" resolve="lhsName" />
+        <ref role="1k5W1q" node="7sn0cJAYwf5" resolve="Nonterminal" />
+      </node>
+      <node concept="3F0ifn" id="4nPjfB_FSpj" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="4nPjfB_FSqW" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:4nPjfB_FSaF" resolve="rhsName" />
+        <ref role="1k5W1q" node="7sn0cJAYwf5" resolve="Nonterminal" />
+      </node>
+      <node concept="2iRfu4" id="4nPjfB_FSj$" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

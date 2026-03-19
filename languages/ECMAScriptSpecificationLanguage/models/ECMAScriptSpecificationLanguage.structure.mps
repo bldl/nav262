@@ -2623,5 +2623,27 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4nPjfB_FS15">
+    <property role="EcuMT" value="5041019994095190085" />
+    <property role="TrG5h" value="ProductionCondition" />
+    <ref role="1TJDcQ" node="2RQ$QDRgIHc" resolve="Condition" />
+    <node concept="1TJgyi" id="4nPjfB_FS94" role="1TKVEl">
+      <property role="IQ2nx" value="5041019994095190596" />
+      <property role="TrG5h" value="lhsName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4nPjfB_FSaF" role="1TKVEl">
+      <property role="IQ2nx" value="5041019994095190699" />
+      <property role="TrG5h" value="rhsName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4nPjfB_FSd5" role="1TKVEi">
+      <property role="IQ2ns" value="5041019994095190853" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ntLiteral" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
