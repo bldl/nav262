@@ -93,6 +93,9 @@
     <node concept="PrWs8" id="2C2JqD0NOSS" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="2ork6t347mE" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyi" id="1Bp6E9nu9Zq" role="1TKVEl">
       <property role="IQ2nx" value="1862549205448957914" />
       <property role="TrG5h" value="inputSpecModelName" />
