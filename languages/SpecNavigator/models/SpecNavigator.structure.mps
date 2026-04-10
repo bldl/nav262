@@ -679,5 +679,16 @@
     <property role="34LRSv" value="unprune" />
     <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
   </node>
+  <node concept="1TIwiD" id="2ork6t3HRWY">
+    <property role="EcuMT" value="2745876802260401982" />
+    <property role="TrG5h" value="CodeEditorActionOpen" />
+    <property role="34LRSv" value="open-tabs" />
+    <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
+    <node concept="1TJgyi" id="2ork6t3HRX0" role="1TKVEl">
+      <property role="IQ2nx" value="2745876802260401984" />
+      <property role="TrG5h" value="limit" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 
