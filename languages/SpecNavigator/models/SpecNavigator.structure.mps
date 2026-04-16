@@ -690,5 +690,16 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="PLDoPcyMcq" resolve="FilteringCondition" />
   </node>
+  <node concept="1TIwiD" id="2gnNswH4U0v">
+    <property role="EcuMT" value="2600773569463164959" />
+    <property role="TrG5h" value="DecorationActionAddRemarkToSteps" />
+    <property role="34LRSv" value="add-remark-to-steps" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="2gnNswH4U60" role="1TKVEl">
+      <property role="IQ2nx" value="2600773569463165312" />
+      <property role="TrG5h" value="remarkText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
