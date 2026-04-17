@@ -718,5 +718,16 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2gnNswHTgok">
+    <property role="EcuMT" value="2600773569476888084" />
+    <property role="TrG5h" value="DecorationActionRemoveBookmarkFromSteps" />
+    <property role="34LRSv" value="remove-bookmark-from-steps" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="2gnNswHTgul" role="1TKVEl">
+      <property role="IQ2nx" value="2600773569476888469" />
+      <property role="TrG5h" value="regex" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
