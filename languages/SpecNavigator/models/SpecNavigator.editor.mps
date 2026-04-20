@@ -1395,5 +1395,35 @@
       <node concept="2iRfu4" id="2gnNswHTgyW" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2gnNswIdj3A">
+    <ref role="1XX52x" to="8wbp:2gnNswIditJ" resolve="DecorationActionRemoveRemarkFromSteps" />
+    <node concept="3EZMnI" id="2gnNswIdj4I" role="2wV5jI">
+      <node concept="PMmxH" id="2gnNswIdj4J" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="2gnNswIdj4K" role="3EZMnx">
+        <property role="3F0ifm" value="remove-remark-from-steps:" />
+      </node>
+      <node concept="3F0A7n" id="2gnNswIdj4L" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:2gnNswIdiAw" resolve="regex" />
+      </node>
+      <node concept="2iRfu4" id="2gnNswIdj4M" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2gnNswIlylM">
+    <ref role="1XX52x" to="8wbp:2gnNswIly9I" resolve="DecorationActionRemoveRemark" />
+    <node concept="3EZMnI" id="2gnNswIlylO" role="2wV5jI">
+      <node concept="PMmxH" id="2gnNswIlylP" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="2gnNswIlylQ" role="3EZMnx">
+        <property role="3F0ifm" value="remove-remark:" />
+      </node>
+      <node concept="3F0A7n" id="2gnNswIlylR" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:2gnNswIlyfK" resolve="regex" />
+      </node>
+      <node concept="2iRfu4" id="2gnNswIlylS" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

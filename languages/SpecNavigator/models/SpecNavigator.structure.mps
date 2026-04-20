@@ -729,5 +729,27 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2gnNswIditJ">
+    <property role="EcuMT" value="2600773569482139503" />
+    <property role="TrG5h" value="DecorationActionRemoveRemarkFromSteps" />
+    <property role="34LRSv" value="remove-remark-from-steps" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="2gnNswIdiAw" role="1TKVEl">
+      <property role="IQ2nx" value="2600773569482140064" />
+      <property role="TrG5h" value="regex" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2gnNswIly9I">
+    <property role="EcuMT" value="2600773569484300910" />
+    <property role="TrG5h" value="DecorationActionRemoveRemark" />
+    <property role="34LRSv" value="remove-remark" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="2gnNswIlyfK" role="1TKVEl">
+      <property role="IQ2nx" value="2600773569484301296" />
+      <property role="TrG5h" value="regex" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
