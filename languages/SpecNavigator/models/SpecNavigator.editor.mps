@@ -821,13 +821,13 @@
     </node>
   </node>
   <node concept="24kQdi" id="6Kpi7IgalcS">
-    <ref role="1XX52x" to="8wbp:6Kpi7Ig9zYQ" resolve="DecorationActionHighlight" />
+    <ref role="1XX52x" to="8wbp:6Kpi7Ig9zYQ" resolve="DecorationActionAddHighlighting" />
     <node concept="3EZMnI" id="6Kpi7IgalcU" role="2wV5jI">
       <node concept="PMmxH" id="6Kpi7IgalcV" role="3EZMnx">
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="6Kpi7IgalcW" role="3EZMnx">
-        <property role="3F0ifm" value="highlight-steps:" />
+        <property role="3F0ifm" value="highlight:" />
       </node>
       <node concept="3F0A7n" id="52iPgJ8hxZr" role="3EZMnx">
         <property role="1$x2rV" value="&lt;RGB color&gt;" />
@@ -1423,6 +1423,22 @@
         <ref role="1NtTu8" to="8wbp:2gnNswIlyfK" resolve="regex" />
       </node>
       <node concept="2iRfu4" id="2gnNswIlylS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2gnNswIuYI6">
+    <ref role="1XX52x" to="8wbp:2gnNswIuX4S" resolve="DecorationActionRemoveHighlighting" />
+    <node concept="3EZMnI" id="2gnNswIuYLY" role="2wV5jI">
+      <node concept="PMmxH" id="2gnNswIuYLZ" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="2gnNswIuYPm" role="3EZMnx">
+        <property role="3F0ifm" value="remove-highlighting:" />
+      </node>
+      <node concept="3F0A7n" id="2gnNswIuYM1" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;RGB color&gt;" />
+        <ref role="1NtTu8" to="8wbp:2gnNswIuXbt" resolve="color" />
+      </node>
+      <node concept="2iRfu4" id="2gnNswIuYM2" role="2iSdaV" />
     </node>
   </node>
 </model>

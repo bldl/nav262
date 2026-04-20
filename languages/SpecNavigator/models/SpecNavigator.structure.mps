@@ -367,8 +367,8 @@
   </node>
   <node concept="1TIwiD" id="6Kpi7Ig9zYQ">
     <property role="EcuMT" value="7789336726050586550" />
-    <property role="TrG5h" value="DecorationActionHighlight" />
-    <property role="34LRSv" value="highlight-steps" />
+    <property role="TrG5h" value="DecorationActionAddHighlighting" />
+    <property role="34LRSv" value="highlight" />
     <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
     <node concept="1TJgyi" id="52iPgJ8hxXg" role="1TKVEl">
       <property role="IQ2nx" value="5805937116215385936" />
@@ -749,6 +749,17 @@
       <property role="IQ2nx" value="2600773569484301296" />
       <property role="TrG5h" value="regex" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2gnNswIuX4S">
+    <property role="EcuMT" value="2600773569486770488" />
+    <property role="TrG5h" value="DecorationActionRemoveHighlighting" />
+    <property role="34LRSv" value="remove-highlighting" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="2gnNswIuXbt" role="1TKVEl">
+      <property role="IQ2nx" value="2600773569486770909" />
+      <property role="TrG5h" value="color" />
+      <ref role="AX2Wp" to="b9dh:52iPgJ85_RG" resolve="RGBHexColor" />
     </node>
   </node>
 </model>
