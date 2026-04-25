@@ -7731,7 +7731,7 @@
             </node>
           </node>
           <node concept="3b6qkQ" id="2gnNswJ6QCa" role="3tpDZB">
-            <property role="$nhwW" value="21.0" />
+            <property role="$nhwW" value="19.0" />
           </node>
         </node>
       </node>

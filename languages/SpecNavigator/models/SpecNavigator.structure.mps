@@ -56,14 +56,14 @@
   </registry>
   <node concept="1TIwiD" id="5wlfRpe0OSc">
     <property role="EcuMT" value="6347049027196112396" />
-    <property role="TrG5h" value="Navigation" />
+    <property role="TrG5h" value="NavigationTask" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="39yvsmz4J6g" role="1TKVEi">
       <property role="IQ2ns" value="3630602537411998096" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="filters" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20kJfa" value="filterBlock" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="39yvsmz4HVM" resolve="FilteringBlock" />
     </node>
     <node concept="1TJgyj" id="$M7JgvNp8O" role="1TKVEi">
@@ -81,13 +81,13 @@
     <node concept="1TJgyj" id="2C_QaSBKClH" role="1TKVEi">
       <property role="IQ2ns" value="3037071766234236269" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="aggregationBlock" />
+      <property role="20kJfa" value="reportBlock" />
       <ref role="20lvS9" node="$M7JgvMZjS" resolve="AggregationBlock" />
     </node>
     <node concept="1TJgyj" id="$M7JgvOeMR" role="1TKVEi">
       <property role="IQ2ns" value="662626129031523511" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="aggregationResult" />
+      <property role="20kJfa" value="reportResult" />
       <ref role="20lvS9" node="$M7JgvOeoC" resolve="CountResult" />
     </node>
     <node concept="PrWs8" id="2C2JqD0NOSS" role="PzmwI">
@@ -483,6 +483,7 @@
   <node concept="25R3W" id="187YVFQKICi">
     <property role="3F6X1D" value="1299283797942135314" />
     <property role="TrG5h" value="SortAlgorithmsBy" />
+    <ref role="1H5jkz" node="187YVFQKICk" resolve="sectionNumber" />
     <node concept="25R33" id="187YVFQKICj" role="25R1y">
       <property role="3tVfz5" value="1299283797942135315" />
       <property role="TrG5h" value="functionName" />

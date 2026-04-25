@@ -191,7 +191,7 @@
   <node concept="2S6QgY" id="2gnNswJx8yR">
     <property role="TrG5h" value="ClearOutputReport" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="8wbp:5wlfRpe0OSc" resolve="Navigation" />
+    <ref role="2ZfgGC" to="8wbp:5wlfRpe0OSc" resolve="NavigationTask" />
     <node concept="2S6ZIM" id="2gnNswJx8yS" role="2ZfVej">
       <node concept="3clFbS" id="2gnNswJx8yT" role="2VODD2">
         <node concept="3clFbF" id="2gnNswJx8Hx" role="3cqZAp">
@@ -208,7 +208,7 @@
             <node concept="2OqwBi" id="2gnNswJDgIj" role="2Oq$k0">
               <node concept="2Sf5sV" id="2gnNswJDgI0" role="2Oq$k0" />
               <node concept="3TrEf2" id="2gnNswJYaHh" role="2OqNvi">
-                <ref role="3Tt5mk" to="8wbp:$M7JgvOeMR" resolve="aggregationResult" />
+                <ref role="3Tt5mk" to="8wbp:$M7JgvOeMR" resolve="reportResult" />
               </node>
             </node>
             <node concept="3YRAZt" id="2gnNswJYaK_" role="2OqNvi" />
@@ -223,7 +223,7 @@
             <node concept="2OqwBi" id="2gnNswJY9Ob" role="2Oq$k0">
               <node concept="2Sf5sV" id="2gnNswJY9y$" role="2Oq$k0" />
               <node concept="3TrEf2" id="2gnNswJYa3v" role="2OqNvi">
-                <ref role="3Tt5mk" to="8wbp:$M7JgvOeMR" resolve="aggregationResult" />
+                <ref role="3Tt5mk" to="8wbp:$M7JgvOeMR" resolve="reportResult" />
               </node>
             </node>
             <node concept="3x8VRR" id="2gnNswJYa_$" role="2OqNvi" />

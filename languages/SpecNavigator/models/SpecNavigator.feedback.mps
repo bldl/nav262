@@ -24,7 +24,7 @@
     </language>
   </registry>
   <node concept="3QByoM" id="71pU$jUpWfZ">
-    <ref role="3Z9TSV" to="8wbp:5wlfRpe0OSc" resolve="Navigation" />
+    <ref role="3Z9TSV" to="8wbp:5wlfRpe0OSc" resolve="NavigationTask" />
   </node>
 </model>
 

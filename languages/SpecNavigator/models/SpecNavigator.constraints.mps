@@ -89,7 +89,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="1Bp6E9nERTI">
-    <ref role="1M2myG" to="8wbp:5wlfRpe0OSc" resolve="Navigation" />
+    <ref role="1M2myG" to="8wbp:5wlfRpe0OSc" resolve="NavigationTask" />
     <node concept="EnEH3" id="1Bp6E9nERTJ" role="1MhHOB">
       <ref role="EomxK" to="8wbp:1Bp6E9nu9Zq" resolve="inputSpecModelName" />
       <node concept="QB0g5" id="1Bp6E9nERXo" role="QCWH9">
@@ -128,7 +128,7 @@
               <node concept="2OqwBi" id="71pU$jUfpgk" role="2Oq$k0">
                 <node concept="EsrRn" id="71pU$jUv5Ut" role="2Oq$k0" />
                 <node concept="3TrEf2" id="71pU$jUfpu0" role="2OqNvi">
-                  <ref role="3Tt5mk" to="8wbp:$M7JgvOeMR" resolve="aggregationResult" />
+                  <ref role="3Tt5mk" to="8wbp:$M7JgvOeMR" resolve="reportResult" />
                 </node>
               </node>
               <node concept="3YRAZt" id="71pU$jUfqQc" role="2OqNvi" />

@@ -258,7 +258,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="5wlfRpe0OSs">
-    <ref role="1XX52x" to="8wbp:5wlfRpe0OSc" resolve="Navigation" />
+    <ref role="1XX52x" to="8wbp:5wlfRpe0OSc" resolve="NavigationTask" />
     <node concept="3EZMnI" id="$M7Jgw8hxd" role="2wV5jI">
       <node concept="3EZMnI" id="5wlfRpe2sOd" role="3EZMnx">
         <node concept="3EZMnI" id="2C_QaSBJPbw" role="3EZMnx">
@@ -308,9 +308,8 @@
           </node>
           <node concept="2iRfu4" id="1ZHYsdH5Hwl" role="2iSdaV" />
         </node>
-        <node concept="3F2HdR" id="39yvsmz81qt" role="3EZMnx">
-          <ref role="1NtTu8" to="8wbp:39yvsmz4J6g" resolve="filters" />
-          <node concept="2EHx9g" id="39yvsmz81qv" role="2czzBx" />
+        <node concept="3F1sOY" id="5GOkAVvTJvE" role="3EZMnx">
+          <ref role="1NtTu8" to="8wbp:39yvsmz4J6g" resolve="filterBlock" />
         </node>
         <node concept="3F1sOY" id="$M7JgvNplU" role="3EZMnx">
           <ref role="1NtTu8" to="8wbp:$M7JgvNp8O" resolve="decorationBlock" />
@@ -319,7 +318,7 @@
           <ref role="1NtTu8" to="8wbp:44BPNitWE6$" resolve="codeEditorBlock" />
         </node>
         <node concept="3F1sOY" id="2C_QaSBKDcw" role="3EZMnx">
-          <ref role="1NtTu8" to="8wbp:2C_QaSBKClH" resolve="aggregationBlock" />
+          <ref role="1NtTu8" to="8wbp:2C_QaSBKClH" resolve="reportBlock" />
         </node>
         <node concept="3F0ifn" id="2C_QaSBYLSV" role="3EZMnx" />
         <node concept="3EZMnI" id="5wlfRpe2sOh" role="3EZMnx">
@@ -378,7 +377,7 @@
       <node concept="3F0ifn" id="$M7Jgw8hA6" role="3EZMnx" />
       <node concept="3F0ifn" id="$M7Jgw8hA7" role="3EZMnx" />
       <node concept="3F1sOY" id="$M7Jgw8hDR" role="3EZMnx">
-        <ref role="1NtTu8" to="8wbp:$M7JgvOeMR" resolve="aggregationResult" />
+        <ref role="1NtTu8" to="8wbp:$M7JgvOeMR" resolve="reportResult" />
       </node>
       <node concept="2iRkQZ" id="$M7Jgw8hxe" role="2iSdaV" />
     </node>
