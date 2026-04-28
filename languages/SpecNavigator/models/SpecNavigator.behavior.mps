@@ -6921,7 +6921,7 @@
                             <property role="373rjd" value="true" />
                             <ref role="37wK5l" to="dxuu:~Timer.&lt;init&gt;(int,java.awt.event.ActionListener)" resolve="Timer" />
                             <node concept="3cmrfG" id="2gnNswGwaEV" role="37wK5m">
-                              <property role="3cmrfH" value="100" />
+                              <property role="3cmrfH" value="500" />
                             </node>
                             <node concept="1bVj0M" id="2gnNswGwccu" role="37wK5m">
                               <node concept="gl6BB" id="2gnNswGwccy" role="1bW2Oz">
