@@ -90,7 +90,7 @@ Currently, two custom inspectors are supported:
 
 ## Other features
 
-Here are features are provided out-of-the-box by MPS:
+Here are some notable features provided out-of-the-box by MPS:
 - Diff two root nodes by selecting them in the Logical View 
 - Show the Abstract Syntax Tree of a node inside the editor (known as  "Reflective Editor")
 Reflective editor.
