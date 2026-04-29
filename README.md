@@ -2,6 +2,28 @@
 
 This project contains the source code for an IDE for navigating the algorithms in the JavaScript Specification, also known as ECMA-262. The IDE is based on JetBrains MPS.
 
+- [Nav262](#nav262)
+  - [System Requirements](#system-requirements)
+  - [IDE Shortcuts](#ide-shortcuts)
+  - [Build the Languages and Plugins](#build-the-languages-and-plugins)
+  - [Importing a version of ECMA-262](#importing-a-version-of-ecma-262)
+- [Exploring ECMA-262 algorithms](#exploring-ecma-262-algorithms)
+  - [Intentions](#intentions)
+  - [Editor Hints](#editor-hints)
+  - [Inspector](#inspector)
+  - [Other features](#other-features)
+- [Performing a Navigation Task](#performing-a-navigation-task)
+  - [Execution of a Navigation Task](#execution-of-a-navigation-task)
+  - [Filtering](#filtering)
+    - [Filtering Templates](#filtering-templates)
+      - [Body-Contains Filter](#body-contains-filter)
+    - [Signature-Based Filters](#signature-based-filters)
+    - [Location-Based Filters](#location-based-filters)
+    - [Annotation-Based Filters](#annotation-based-filters)
+  - [Decorations](#decorations)
+  - [Code Editor Actions](#code-editor-actions)
+  - [Report](#report)
+
 ## System Requirements
 
 - JetBrains MPS 2024.3.1
