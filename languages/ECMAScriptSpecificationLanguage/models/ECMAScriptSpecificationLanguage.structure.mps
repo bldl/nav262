@@ -18,6 +18,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -125,7 +126,8 @@
   <node concept="1TIwiD" id="5eocg95ibf_">
     <property role="EcuMT" value="6023618387430126565" />
     <property role="TrG5h" value="LetStep" />
-    <property role="34LRSv" value="let _ be" />
+    <property role="34LRSv" value="let" />
+    <property role="R4oN_" value="Let _ be _" />
     <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
     <node concept="1TJgyj" id="5eocg95ibfF" role="1TKVEi">
       <property role="IQ2ns" value="6023618387430126571" />
@@ -731,6 +733,7 @@
   <node concept="1TIwiD" id="2VjIQ4x1uqH">
     <property role="EcuMT" value="3374246571670890157" />
     <property role="TrG5h" value="FalseLiteral" />
+    <property role="34LRSv" value="false" />
     <ref role="1TJDcQ" node="2VjIQ4x1uqD" resolve="BooleanLiteral" />
   </node>
   <node concept="1TIwiD" id="2VjIQ4xeC_9">
@@ -2229,6 +2232,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="13vZlw0p0_d" resolve="Remark" />
     </node>
+    <node concept="1TJgyj" id="2AcOrvDkzFI" role="1TKVEi">
+      <property role="IQ2ns" value="2993998440118237934" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="alternatives" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2AcOrvDmE2V" resolve="StepItem" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7JZCLqYF53D">
     <property role="EcuMT" value="8935039503809925353" />
@@ -2743,6 +2753,18 @@
     <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
     <node concept="PrWs8" id="6OdzVF2DnmW" role="PzmwI">
       <ref role="PrY4T" node="6OdzVF2zrpS" resolve="HasNonterminal" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2AcOrvDmE2V">
+    <property role="EcuMT" value="2993998440118788283" />
+    <property role="TrG5h" value="StepItem" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2AcOrvDmE8$" role="1TKVEi">
+      <property role="IQ2ns" value="2993998440118788644" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="step" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfy" resolve="Step" />
     </node>
   </node>
 </model>

@@ -945,7 +945,7 @@
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="6Kpi7IgalcW" role="3EZMnx">
-        <property role="3F0ifm" value="highlight:" />
+        <property role="3F0ifm" value="highlight-steps:" />
       </node>
       <node concept="3F0A7n" id="52iPgJ8hxZr" role="3EZMnx">
         <property role="1$x2rV" value="&lt;RGB color&gt;" />
@@ -1384,22 +1384,13 @@
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="2ork6t3HRX6" role="3EZMnx">
-        <property role="3F0ifm" value="open-tabs" />
+        <property role="3F0ifm" value="open-all in-separate-tabs" />
       </node>
       <node concept="3F0ifn" id="2ork6t3HRXb" role="3EZMnx">
         <property role="3F0ifm" value="limit:" />
       </node>
       <node concept="3F0A7n" id="2ork6t3HRXe" role="3EZMnx">
         <ref role="1NtTu8" to="8wbp:2ork6t3HRX0" resolve="limit" />
-      </node>
-      <node concept="3F0ifn" id="69TsQMX_w2g" role="3EZMnx">
-        <property role="3F0ifm" value="delay-between-openings:" />
-      </node>
-      <node concept="3F0A7n" id="69TsQMX_w63" role="3EZMnx">
-        <ref role="1NtTu8" to="8wbp:69TsQMXv5ub" resolve="msWaitBetweenOpenings" />
-      </node>
-      <node concept="3F0ifn" id="69TsQMX_w72" role="3EZMnx">
-        <property role="3F0ifm" value="milliseconds" />
       </node>
       <node concept="2iRfu4" id="2ork6t3HRX7" role="2iSdaV" />
     </node>
