@@ -4,9 +4,10 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ECMAScriptSpecificationLanguage/ECMAScriptSpecificationLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/SpecNavigator/SpecNavigator.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/ExampleNavigations/ExampleNavigations.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ImporterPlugin/ImporterPlugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Test/Test.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/example-navigations/example-navigations.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/nav262.build/nav262.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
