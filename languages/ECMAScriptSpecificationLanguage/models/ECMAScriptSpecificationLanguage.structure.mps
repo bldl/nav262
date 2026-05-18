@@ -2767,5 +2767,30 @@
       <ref role="20lvS9" node="5eocg95ibfy" resolve="Step" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3mEDnp6u_bX">
+    <property role="EcuMT" value="3867085157458137853" />
+    <property role="TrG5h" value="ContainsWhoseFieldCondition" />
+    <ref role="1TJDcQ" node="31uazn7eofK" resolve="ContainsCondition" />
+    <node concept="1TJgyj" id="3mEDnp6u_bY" role="1TKVEi">
+      <property role="IQ2ns" value="3867085157458137854" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <ref role="20lvS9" node="281RemKaeI7" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="3mEDnp6u_Ks" role="1TKVEi">
+      <property role="IQ2ns" value="3867085157458140188" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="field" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="me4WyPqUe3" resolve="FieldLiteral" />
+    </node>
+    <node concept="1TJgyj" id="3mEDnp6u_Kt" role="1TKVEi">
+      <property role="IQ2ns" value="3867085157458140189" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 

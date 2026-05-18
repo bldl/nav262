@@ -712,10 +712,10 @@
             <property role="3TUv4t" value="true" />
             <node concept="1XwpNF" id="2AcOrvDOQIn" role="1tU5fm" />
             <node concept="1Xw6AR" id="2AcOrvDSCWv" role="33vP2m">
-              <node concept="1dCxOl" id="2AcOrvDWGQk" role="1XwpL7">
-                <property role="1XweGQ" value="r:2f7126db-bf1b-49f7-ad10-0f2da4755002" />
-                <node concept="1j_P7g" id="2AcOrvDWGQl" role="1j$8Uc">
-                  <property role="1j_P7h" value="date-boilerplate" />
+              <node concept="1dCxOl" id="3mEDnp6WhMl" role="1XwpL7">
+                <property role="1XweGQ" value="r:b5b75181-0225-4235-9ad8-e8cbe9444f53" />
+                <node concept="1j_P7g" id="3mEDnp6WhMm" role="1j$8Uc">
+                  <property role="1j_P7h" value="example-navigation" />
                 </node>
               </node>
             </node>
@@ -1028,10 +1028,10 @@
             <property role="3TUv4t" value="true" />
             <node concept="1XwpNF" id="2AcOrvEw1rl" role="1tU5fm" />
             <node concept="1Xw6AR" id="2AcOrvEw1rm" role="33vP2m">
-              <node concept="1dCxOl" id="2AcOrvEw1rn" role="1XwpL7">
-                <property role="1XweGQ" value="r:2f7126db-bf1b-49f7-ad10-0f2da4755002" />
-                <node concept="1j_P7g" id="2AcOrvEw1ro" role="1j$8Uc">
-                  <property role="1j_P7h" value="date-boilerplate" />
+              <node concept="1dCxOl" id="3mEDnp6W5JB" role="1XwpL7">
+                <property role="1XweGQ" value="r:b5b75181-0225-4235-9ad8-e8cbe9444f53" />
+                <node concept="1j_P7g" id="3mEDnp6W5JC" role="1j$8Uc">
+                  <property role="1j_P7h" value="example-navigation" />
                 </node>
               </node>
             </node>
