@@ -192,6 +192,11 @@
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
+      <concept id="781140262677906392" name="jetbrains.mps.build.mps.structure.BuildMps_BrandingCompany" flags="ng" index="IuM$Q">
+        <child id="781140262677906402" name="url" index="IuM$c" />
+        <child id="781140262677906401" name="name" index="IuM$f" />
+        <child id="2355727383336213970" name="copyrightStar" index="3fQQh0" />
+      </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <property id="2928402740576877067" name="javaCode" index="3vZFNd" />
@@ -213,12 +218,14 @@
         <property id="3497141547781541445" name="minor" index="2OjLBK" />
         <property id="3497141547781541444" name="major" index="2OjLBL" />
         <child id="6845119683729294884" name="progressColor" index="27hGoL" />
+        <child id="6845119683729280452" name="icon" index="27igRh" />
         <child id="922958177840117051" name="script" index="2gvbiD" />
         <child id="6108265972537182996" name="splashScreen" index="2EqU2t" />
         <child id="6108265972537229337" name="buildNumber" index="2EteIg" />
         <child id="6108265972537372847" name="product" index="2EtHGA" />
         <child id="6108265972537372848" name="fullName" index="2EtHGT" />
         <child id="8795525031433238889" name="textColor" index="HFo83" />
+        <child id="781140262677914381" name="company" index="IuKBz" />
         <child id="8877724874822185910" name="feedbackUrl" index="2Mmf0a" />
         <child id="1462305029084462472" name="buildDate" index="R$TG_" />
         <child id="62678610895108195" name="svg_small" index="1hH5mY" />
@@ -265,7 +272,7 @@
       <node concept="55IIr" id="3mEDnp6dpZc" role="3vi$VU">
         <node concept="2Ry0Ak" id="3mEDnp6dpZd" role="iGT6I">
           <property role="2Ry0Am" value="icons" />
-          <node concept="2Ry0Ak" id="3mEDnp6dpZe" role="2Ry0An">
+          <node concept="2Ry0Ak" id="5hwZonoOd0R" role="2Ry0An">
             <property role="2Ry0Am" value="logo.png" />
           </node>
         </node>
@@ -290,14 +297,6 @@
           <ref role="3Mxwex" node="3mEDnp6dpYQ" resolve="date" />
         </node>
       </node>
-      <node concept="55IIr" id="3mEDnp6dpZn" role="2EqU2t">
-        <node concept="2Ry0Ak" id="3mEDnp6dpZo" role="iGT6I">
-          <property role="2Ry0Am" value="icons" />
-          <node concept="2Ry0Ak" id="3mEDnp6dpZp" role="2Ry0An">
-            <property role="2Ry0Am" value="splash.png" />
-          </node>
-        </node>
-      </node>
       <node concept="3_J27D" id="3mEDnp6dpZq" role="2gvbiD">
         <node concept="3Mxwew" id="3mEDnp6dpZr" role="3MwsjC">
           <property role="3MwjfP" value="nav262" />
@@ -316,7 +315,7 @@
       <node concept="55IIr" id="3mEDnp6dpZw" role="1hH5nN">
         <node concept="2Ry0Ak" id="3mEDnp6dpZx" role="iGT6I">
           <property role="2Ry0Am" value="icons" />
-          <node concept="2Ry0Ak" id="3mEDnp6dpZy" role="2Ry0An">
+          <node concept="2Ry0Ak" id="5hwZonoOd0P" role="2Ry0An">
             <property role="2Ry0Am" value="nav262.svg" />
           </node>
         </node>
@@ -324,8 +323,8 @@
       <node concept="55IIr" id="3mEDnp6dpZz" role="1hH5mY">
         <node concept="2Ry0Ak" id="3mEDnp6dpZ$" role="iGT6I">
           <property role="2Ry0Am" value="icons" />
-          <node concept="2Ry0Ak" id="3mEDnp6dpZ_" role="2Ry0An">
-            <property role="2Ry0Am" value="nav262_16.svg" />
+          <node concept="2Ry0Ak" id="5hwZonoOd0Q" role="2Ry0An">
+            <property role="2Ry0Am" value="nav262.svg" />
           </node>
         </node>
       </node>
@@ -357,11 +356,40 @@
           <property role="3MwjfP" value="https://github.com/bldl/nav262/issues/new" />
         </node>
       </node>
+      <node concept="IuM$Q" id="3mEDnp6YlhT" role="IuKBz">
+        <node concept="3_J27D" id="3mEDnp6YlhU" role="IuM$f">
+          <node concept="3Mxwew" id="3mEDnp6YlhX" role="3MwsjC">
+            <property role="3MwjfP" value="Bergen Language Design Laboratory" />
+          </node>
+        </node>
+        <node concept="3_J27D" id="3mEDnp6YlhV" role="IuM$c">
+          <node concept="3Mxwew" id="3mEDnp6YlhY" role="3MwsjC">
+            <property role="3MwjfP" value="https://github.com/bldl" />
+          </node>
+        </node>
+        <node concept="NbPM2" id="3mEDnp6YlhW" role="3fQQh0" />
+      </node>
+      <node concept="55IIr" id="5hwZonoO1QL" role="27igRh">
+        <node concept="2Ry0Ak" id="5hwZonoO1QP" role="iGT6I">
+          <property role="2Ry0Am" value="icons" />
+          <node concept="2Ry0Ak" id="5hwZonoOd0O" role="2Ry0An">
+            <property role="2Ry0Am" value="logo.png" />
+          </node>
+        </node>
+      </node>
+      <node concept="55IIr" id="5hwZonoOIvd" role="2EqU2t">
+        <node concept="2Ry0Ak" id="5hwZonoOTD5" role="iGT6I">
+          <property role="2Ry0Am" value="icons" />
+          <node concept="2Ry0Ak" id="5hwZonoP4N3" role="2Ry0An">
+            <property role="2Ry0Am" value="splash.png" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2kB4xC" id="3mEDnp6dpYQ" role="1l3spd">
       <property role="TrG5h" value="date" />
       <node concept="hHN3E" id="3mEDnp6dpYR" role="aVJcv">
-        <property role="hHN3Y" value="20260513" />
+        <property role="hHN3Y" value="20260518" />
       </node>
     </node>
     <node concept="2kB4xC" id="3mEDnp6dpYS" role="1l3spd">
@@ -533,7 +561,7 @@
             </node>
           </node>
           <node concept="1zDrgl" id="3mEDnp6dq18" role="39821P">
-            <ref role="1zDrgn" node="3mEDnp6dpZb" resolve="nav262 1.0" />
+            <ref role="1zDrgn" node="3mEDnp6dpZb" resolve="MPS" />
           </node>
         </node>
       </node>
@@ -1685,21 +1713,11 @@
                     </node>
                   </node>
                 </node>
-                <node concept="398BVA" id="3mEDnp6dq7A" role="28jJRO">
-                  <ref role="398BVh" node="3mEDnp6dq2G" resolve="mps_home" />
-                  <node concept="2Ry0Ak" id="3mEDnp6dq7B" role="iGT6I">
-                    <property role="2Ry0Am" value="bin" />
-                    <node concept="2Ry0Ak" id="3mEDnp6dq7C" role="2Ry0An">
-                      <property role="2Ry0Am" value="mac" />
-                      <node concept="2Ry0Ak" id="3mEDnp6dq7D" role="2Ry0An">
-                        <property role="2Ry0Am" value="Contents" />
-                        <node concept="2Ry0Ak" id="3mEDnp6dq7E" role="2Ry0An">
-                          <property role="2Ry0Am" value="Resources" />
-                          <node concept="2Ry0Ak" id="3mEDnp6dq7F" role="2Ry0An">
-                            <property role="2Ry0Am" value="mps.icns" />
-                          </node>
-                        </node>
-                      </node>
+                <node concept="55IIr" id="5hwZonoOzkB" role="28jJRO">
+                  <node concept="2Ry0Ak" id="5hwZonoOzkE" role="iGT6I">
+                    <property role="2Ry0Am" value="icons" />
+                    <node concept="2Ry0Ak" id="5hwZonoOzkH" role="2Ry0An">
+                      <property role="2Ry0Am" value="nav262.icns" />
                     </node>
                   </node>
                 </node>
@@ -2118,21 +2136,11 @@
                     </node>
                   </node>
                 </node>
-                <node concept="398BVA" id="3mEDnp6dqaT" role="28jJRO">
-                  <ref role="398BVh" node="3mEDnp6dq2G" resolve="mps_home" />
-                  <node concept="2Ry0Ak" id="3mEDnp6dqaU" role="iGT6I">
-                    <property role="2Ry0Am" value="bin" />
-                    <node concept="2Ry0Ak" id="3mEDnp6dqaV" role="2Ry0An">
-                      <property role="2Ry0Am" value="mac" />
-                      <node concept="2Ry0Ak" id="3mEDnp6dqaW" role="2Ry0An">
-                        <property role="2Ry0Am" value="Contents" />
-                        <node concept="2Ry0Ak" id="3mEDnp6dqaX" role="2Ry0An">
-                          <property role="2Ry0Am" value="Resources" />
-                          <node concept="2Ry0Ak" id="3mEDnp6dqaY" role="2Ry0An">
-                            <property role="2Ry0Am" value="mps.icns" />
-                          </node>
-                        </node>
-                      </node>
+                <node concept="55IIr" id="5hwZonoOzkI" role="28jJRO">
+                  <node concept="2Ry0Ak" id="5hwZonoOzkL" role="iGT6I">
+                    <property role="2Ry0Am" value="icons" />
+                    <node concept="2Ry0Ak" id="5hwZonoOzkO" role="2Ry0An">
+                      <property role="2Ry0Am" value="nav262.icns" />
                     </node>
                   </node>
                 </node>
