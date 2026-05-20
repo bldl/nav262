@@ -63,7 +63,6 @@
       <property role="IQ2ns" value="3630602537411998096" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="filterBlock" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="39yvsmz4HVM" resolve="FilteringBlock" />
     </node>
     <node concept="1TJgyj" id="$M7JgvNp8O" role="1TKVEi">
@@ -105,6 +104,11 @@
       <property role="IQ2nx" value="3037071766237527264" />
       <property role="TrG5h" value="outputSpecModelName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5hwZonqee7P" role="1TKVEl">
+      <property role="IQ2nx" value="6080138248283808245" />
+      <property role="TrG5h" value="status" />
+      <ref role="AX2Wp" node="5hwZonqedSF" resolve="NavigationStatus" />
     </node>
   </node>
   <node concept="1TIwiD" id="PLDoPcyMcq">
@@ -769,6 +773,23 @@
       <property role="IQ2nx" value="2600773569486770909" />
       <property role="TrG5h" value="color" />
       <ref role="AX2Wp" to="b9dh:52iPgJ85_RG" resolve="RGBHexColor" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5hwZonqedSF">
+    <property role="3F6X1D" value="6080138248283807275" />
+    <property role="TrG5h" value="NavigationStatus" />
+    <ref role="1H5jkz" node="5hwZonqedSG" resolve="neverRan" />
+    <node concept="25R33" id="5hwZonqedSG" role="25R1y">
+      <property role="3tVfz5" value="6080138248283807276" />
+      <property role="TrG5h" value="neverRan" />
+    </node>
+    <node concept="25R33" id="5hwZonqedSH" role="25R1y">
+      <property role="3tVfz5" value="6080138248283807277" />
+      <property role="TrG5h" value="running" />
+    </node>
+    <node concept="25R33" id="5hwZonqedSI" role="25R1y">
+      <property role="3tVfz5" value="6080138248283807278" />
+      <property role="TrG5h" value="completed" />
     </node>
   </node>
 </model>

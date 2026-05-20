@@ -72,10 +72,16 @@
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
+        <child id="1138662048170" name="value" index="tz02z" />
+      </concept>
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
       </concept>
@@ -156,6 +162,21 @@
                 </node>
               </node>
               <node concept="3YRAZt" id="71pU$jUfqQc" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="5hwZonqeHQl" role="3cqZAp">
+            <node concept="2OqwBi" id="5hwZonqeIps" role="3clFbG">
+              <node concept="2OqwBi" id="5hwZonqeI1T" role="2Oq$k0">
+                <node concept="EsrRn" id="5hwZonqeHQk" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5hwZonqeIf9" role="2OqNvi">
+                  <ref role="3TsBF5" to="8wbp:5hwZonqee7P" resolve="status" />
+                </node>
+              </node>
+              <node concept="tyxLq" id="5hwZonqeI$_" role="2OqNvi">
+                <node concept="21nZrQ" id="5hwZonqeI_k" role="tz02z">
+                  <ref role="21nZrZ" to="8wbp:5hwZonqedSG" resolve="neverRan" />
+                </node>
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="71pU$jUfvWz" role="3cqZAp">
