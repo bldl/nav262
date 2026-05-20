@@ -3,9 +3,9 @@
 This project contains the source code for an IDE for navigating the algorithms in the JavaScript Specification, also known as ECMA-262. The IDE is based on JetBrains MPS.
 
 - [Nav262](#nav262)
-  - [System Requirements](#system-requirements)
-  - [IDE Shortcuts](#ide-shortcuts)
+  - [Running the IDE](#running-the-ide)
   - [Build the Languages and Plugins](#build-the-languages-and-plugins)
+  - [IDE Shortcuts](#ide-shortcuts)
   - [Importing a version of ECMA-262](#importing-a-version-of-ecma-262)
 - [Exploring ECMA-262 algorithms](#exploring-ecma-262-algorithms)
   - [Intentions](#intentions)
@@ -25,25 +25,35 @@ This project contains the source code for an IDE for navigating the algorithms i
   - [Code Editor Actions](#code-editor-actions)
   - [Report](#report)
 
-## System Requirements
+## Running the IDE
 
+Download the IDE binaries (see [releases](./releases)) and execute the `nav262` application.
+
+## Build the Languages and Plugins
+
+As an alternative to running the standalone IDE, you can build the project and run it from an MPS instance.
+
+System requirements:
 - JetBrains MPS 2024.3.1
+
+Setup instructions:
+1. Clone this repository and open it inside MPS. 
+2. Build both languages `ECMAScriptSpecificationLanguage` and `SpecNavigator`. 
+3. Then, build `ImporterPlugin`.
 
 ## IDE Shortcuts
 
 Depending on your operating systems, the shortcuts differ. For an updated list of shortcuts refer to the MPS documentation: https://www.jetbrains.com/help/mps/mastering-keyboard-shortcuts.html.
 
-## Build the Languages and Plugins
-
-Once you have cloned this repository, open it inside MPS. Build both languages `ECMAScriptSpecificationLanguage` and `SpecNavigator`. Then, build `ImporterPlugin`.
-
 ## Importing a version of ECMA-262
 
 Prerequisite:
-- You have previously generated an importable version of ECMA-262 using [nav262-utils](https://github.com/bldl/nav262-utils)
+- You have obtained a version of ECMA-262 in the importable format, either:
+  - downloading pre-generated importable specs provided by us (see [releases](./releases))
+  - or generating them yourself by using [nav262-utils](https://github.com/bldl/nav262-utils)
 
 Instructions:
-- Open MPS and select File > Open > `<folder containing this repository>`
+- Open nav262 and create a new empty project
 - Create a new solution in the project (you can choose any valid name)
 - Click on the newly created solution to make sure it's the currently selected one
 - Select Navigate > Go to Action > Import ECMA-262 specification from XML
