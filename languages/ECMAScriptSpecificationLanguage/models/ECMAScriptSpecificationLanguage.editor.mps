@@ -119,8 +119,10 @@
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
+      <concept id="1223386653097" name="jetbrains.mps.lang.editor.structure.StrikeOutStyleSheet" flags="ln" index="3nxI2P" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="6681408443912431607" name="jetbrains.mps.lang.editor.structure.URLStyleClassItem" flags="ln" index="3u2Kpz">
+        <property id="6681408443912457593" name="url" index="3u2UNH" />
         <child id="6681408443912431608" name="query" index="3u2KpG" />
       </concept>
       <concept id="6681408443912573553" name="jetbrains.mps.lang.editor.structure.QueryFunction_URL" flags="in" index="3u3nf_" />
@@ -5006,10 +5008,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0A7n" id="HZD0MbDnJS" role="1QoS34">
-        <ref role="1NtTu8" to="b9dh:HZD0MbDlTU" resolve="missingOperationName" />
-        <ref role="1k5W1q" node="HZD0Mbu0KW" resolve="MissingAnchor" />
-      </node>
       <node concept="1iCGBv" id="4JWQRjsya0I" role="1QoVPY">
         <ref role="1NtTu8" to="b9dh:4JWQRjsya0F" resolve="ref" />
         <ref role="1k5W1q" node="1ZHYsdHzHcX" resolve="Anchor" />
@@ -5018,6 +5016,63 @@
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
+        </node>
+      </node>
+      <node concept="1QoScp" id="5hwZonprwH2" role="1QoS34">
+        <property role="1QpmdY" value="true" />
+        <node concept="pkWqt" id="5hwZonprwH3" role="3e4ffs">
+          <node concept="3clFbS" id="5hwZonprwH4" role="2VODD2">
+            <node concept="3clFbF" id="5hwZonprwQr" role="3cqZAp">
+              <node concept="22lmx$" id="5hwZonpxevo" role="3clFbG">
+                <node concept="2OqwBi" id="5hwZonprxRX" role="3uHU7w">
+                  <node concept="2OqwBi" id="5hwZonprx77" role="2Oq$k0">
+                    <node concept="pncrf" id="5hwZonprwQq" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5hwZonprxiD" role="2OqNvi">
+                      <ref role="3TsBF5" to="b9dh:5hwZonp5_C3" resolve="specUrl" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5hwZonpryiE" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.isEmpty()" resolve="isEmpty" />
+                  </node>
+                </node>
+                <node concept="17R0WA" id="5hwZonpr_Br" role="3uHU7B">
+                  <node concept="10Nm6u" id="5hwZonpr_Nr" role="3uHU7w" />
+                  <node concept="2OqwBi" id="5hwZonpr$de" role="3uHU7B">
+                    <node concept="pncrf" id="5hwZonprzZK" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5hwZonpr$tg" role="2OqNvi">
+                      <ref role="3TsBF5" to="b9dh:5hwZonp5_C3" resolve="specUrl" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0A7n" id="5hwZonprwPD" role="1QoVPY">
+          <ref role="1NtTu8" to="b9dh:HZD0MbDlTU" resolve="missingOperationName" />
+          <ref role="1k5W1q" node="1ZHYsdHzHcX" resolve="Anchor" />
+          <node concept="3nxI2P" id="5hwZonprwQo" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3u2Kpz" id="5hwZonp9C8X" role="3F10Kt">
+            <property role="3u2UNH" value=" " />
+            <node concept="3u3nf_" id="5hwZonp9C8Z" role="3u2KpG">
+              <node concept="3clFbS" id="5hwZonp9C90" role="2VODD2">
+                <node concept="3clFbF" id="5hwZonp9Cfh" role="3cqZAp">
+                  <node concept="2OqwBi" id="5hwZonp9Cxo" role="3clFbG">
+                    <node concept="pncrf" id="5hwZonp9Cfg" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5hwZonpmieU" role="2OqNvi">
+                      <ref role="3TsBF5" to="b9dh:5hwZonp5_C3" resolve="specUrl" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0A7n" id="HZD0MbDnJS" role="1QoS34">
+          <ref role="1NtTu8" to="b9dh:HZD0MbDlTU" resolve="missingOperationName" />
+          <ref role="1k5W1q" node="HZD0Mbu0KW" resolve="MissingAnchor" />
         </node>
       </node>
     </node>
