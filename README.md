@@ -27,7 +27,7 @@ This project contains the source code for an IDE for navigating the algorithms i
 
 ## Running the IDE
 
-Download the IDE binaries (see [releases](./releases)) and execute the `nav262` application.
+Download the IDE binaries (see [releases](https://github.com/bldl/nav262/releases)) and execute the `nav262` application.
 
 ## Build the Languages and Plugins
 
